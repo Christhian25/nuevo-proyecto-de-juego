@@ -51,13 +51,14 @@ text = "Jugar"
 
 [node name="Option" type="Button" parent="VBoxContainer"]
 layout_mode = 2
-text = "Opciones"
+text = "Opcion
+"
 
 [node name="Quit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Salir"
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
-[connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_option_pressed"]
 [connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_opcion_pressed"]
+[connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_option_pressed"]
 [connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]
