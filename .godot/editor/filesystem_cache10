@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769568101
+::res://::1769574200
 camera_2d.gd::GDScript::8667666118071980707::1767754489::0::1::::<>Camera2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::6637943192390016884::1765842283::1765842321::1::::<><><>0<>0<>7b0e0cdf6d2b353c7934f6358bac4642<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 mapa.tscn::PackedScene::7896550604539122410::1769403076::0::1::::<><><>0<>0<><>::uid://cf4o32cuwu5vb::::res://Tiles/tile_0000.png<>uid://bkuv3wkk4midf::::res://Panel 1 (2).jpg<>uid://bifdd63rhsbeo::::res://Tiles/tile_0020.png<>uid://d4ml46j7wcq5e::::res://Tiles/tile_0110.png<>uid://c2yoq1rbuqowb::::res://Tiles/tile_0130.png<>uid://bisx3fg5jai4o::::res://Tiles/tile_0021.png<>uid://cgws4ftu27nmt::::res://Tiles/tile_0022.png<>uid://bxa3d3laurwyk::::res://Tiles/tile_0023.png<>uid://bo2jdfsgvci8d::::res://Tiles/tile_0024.png<>uid://v7pwn4d7kkbj::::res://Tiles/tile_0025.png<>uid://clf45l5dmbfc2::::res://Tiles/tile_0140.png<>uid://5ords10agjvx::::res://Tiles/tile_0104.png<>uid://brwiv6c3khwie::::res://Tiles/tile_0120.png<>uid://dfbwgyephs3t3::::res://Tiles/tile_0121.png<>uid://xm7fyx3pvmo::::res://Tiles/tile_0122.png<>uid://dh73na3aih4xd::::res://Tiles/tile_0123.png<>uid://bvecb45twrdvt::::res://Tiles/tile_0047.png<>uid://o5oerdqebll::::res://Tiles/tile_0141.png<>uid://da3cbbmadfmy4::::res://Tiles/tile_0048.png<>uid://bm3tjltspqajc::::res://Tiles/tile_0049.png<>uid://cvatc4ptid01v::::res://Tiles/tile_0050.png<>uid://brywdg0u2up4b::::res://Tiles/tile_0142.png<>uid://cqeu3ea02j6xb::::res://Tiles/tile_0143.png<>uid://dvqxgu7wxxrdr::::res://camera_2d.gd<>uid://ldt20npghn0n::::res://juego/cangrejo.tscn<>uid://colfoqbdxo0qa::::res://juego/charco.tscn
@@ -9,25 +9,25 @@ Panel 1.jpg::CompressedTexture2D::3282616571856983::1766531490::1766531490::1:::
 Panel 2.jpg::CompressedTexture2D::6075359824853330443::1769398984::1769398984::1::::<><><>0<>0<>ddb2f431437b0f509afbe6bf6abaa361<>res://.godot/imported/Panel 2.jpg-ddcc86f1d169330ede13a48d37570829.ctex::
 pantalla.tscn::PackedScene::3915791618663461204::1769432532::0::1::::<><><>0<>0<><>::uid://c1d6m6o5ijrgx::::res://Scrips/pantalla.gd<>uid://css7j2y3nmcn0::::res://Panel 2.jpg
 personaje.gd::GDScript::7857002915015800813::1766029560::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
-::res://Escenas/::1769432112
+::res://Escenas/::1769574088
 mapa.tscn::PackedScene::8535070313776684367::1767755379::0::1::::<><><>0<>0<><>::uid://cf4o32cuwu5vb::::res://Tiles/tile_0000.png<>uid://bkuv3wkk4midf::::res://Panel 1 (2).jpg<>uid://bifdd63rhsbeo::::res://Tiles/tile_0020.png<>uid://d4ml46j7wcq5e::::res://Tiles/tile_0110.png<>uid://c2yoq1rbuqowb::::res://Tiles/tile_0130.png<>uid://bisx3fg5jai4o::::res://Tiles/tile_0021.png<>uid://cgws4ftu27nmt::::res://Tiles/tile_0022.png<>uid://bxa3d3laurwyk::::res://Tiles/tile_0023.png<>uid://bo2jdfsgvci8d::::res://Tiles/tile_0024.png<>uid://v7pwn4d7kkbj::::res://Tiles/tile_0025.png<>uid://clf45l5dmbfc2::::res://Tiles/tile_0140.png<>uid://5ords10agjvx::::res://Tiles/tile_0104.png<>uid://brwiv6c3khwie::::res://Tiles/tile_0120.png<>uid://dfbwgyephs3t3::::res://Tiles/tile_0121.png<>uid://xm7fyx3pvmo::::res://Tiles/tile_0122.png<>uid://dh73na3aih4xd::::res://Tiles/tile_0123.png<>uid://bvecb45twrdvt::::res://Tiles/tile_0047.png<>uid://o5oerdqebll::::res://Tiles/tile_0141.png<>uid://da3cbbmadfmy4::::res://Tiles/tile_0048.png<>uid://bm3tjltspqajc::::res://Tiles/tile_0049.png<>uid://cvatc4ptid01v::::res://Tiles/tile_0050.png<>uid://brywdg0u2up4b::::res://Tiles/tile_0142.png<>uid://cqeu3ea02j6xb::::res://Tiles/tile_0143.png<>uid://dvqxgu7wxxrdr::::res://camera_2d.gd<>uid://ldt20npghn0n::::res://juego/cangrejo.tscn<>uid://colfoqbdxo0qa::::res://juego/charco.tscn
 opciones.tscn::PackedScene::4735003815349448970::1769399849::0::1::::<><><>0<>0<><>::uid://css7j2y3nmcn0::::res://Panel 2.jpg
 pantalla.tscn::PackedScene::2146824879797813289::1769400277::0::1::::<><><>0<>0<><>::uid://c1d6m6o5ijrgx::::res://Scrips/pantalla.gd<>uid://css7j2y3nmcn0::::res://Panel 2.jpg
-personaje.tscn::PackedScene::4552270826074060020::1769432112::0::1::::<><><>0<>0<><>::uid://bo56vj5nkpgfc::::res://Scrips/Personaje.gd<>uid://c3o3d2onavvj8::::res://sprite animados/CUNAGUARO.png
+personaje.tscn::PackedScene::4552270826074060020::1769573216::0::1::::<><><>0<>0<><>::uid://bo56vj5nkpgfc::::res://Scrips/Personaje.gd<>uid://c3o3d2onavvj8::::res://sprite animados/CUNAGUARO.png
 pruebas_parallax.tscn::PackedScene::1663595684588635083::1768579138::0::1::::<><><>0<>0<><>::uid://c04ps7moodv0x::::res://Scrips_parallax_background.gd<>uid://cxu6hgq5jse15::::res://fondos/Sky.png<>uid://xghcib7wc0cl::::res://fondos/far-mountain2s-Sheet.png<>uid://dl4bm8a31jvca::::res://fondos/near-cloud2s-Sheet.png<>uid://c06r5ega6p38p::::res://fondos/Pueblot2-Sheet.png
-::res://juego/::1767753892
+::res://juego/::1769566082
 cangrejo.tscn::PackedScene::779473586434581963::1767752962::0::1::::<><><>0<>0<><>::uid://f477vrqx88c2::::res://Scrips/cangrejo.gd<>uid://bq2243kyauts0::::res://sprite animados/cangrejo de manglar walk64x64.png
 charco.tscn::PackedScene::5778522761777842308::1767753892::0::1::::<><><>0<>0<><>::uid://bcr3qbqqoukq3::::res://sprite animados/carco de petroleo 64x64.png
-::res://Scrips/::1769432532
+::res://Scrips/::1769566081
 cangrejo.gd::GDScript::412812392242444827::1767751764::0::1::::<>CharacterBody2D<><>0<>0<><>::
 opciones.gd::GDScript::7711832631634993272::1769400277::0::1::::<>Control<><>0<>0<><>::
 pantalla.gd::GDScript::6605849742765085871::1769432532::0::1::::<>Control<><>0<>0<><>::
-Personaje.gd::GDScript::3432916075354015228::1769432112::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://sprite animados/::1769402005
+Personaje.gd::GDScript::3432916075354015228::1769573174::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://sprite animados/::1769573665
 cangrejo de manglar walk64x64.png::CompressedTexture2D::3566873015282276713::1767747823::1767747823::1::::<><><>0<>0<>6783053b7ef1611d7674f350ce074352<>res://.godot/imported/cangrejo de manglar walk64x64.png-2f3d134a8afc2c938a57a11c56909c4a.ctex::
 carco de petroleo 64x64.png::CompressedTexture2D::2563621519274815844::1767753695::1767753695::1::::<><><>0<>0<>7fd89d453958f9041c0984a19adf08eb<>res://.godot/imported/carco de petroleo 64x64.png-53dc36da1df8f014705c51a71bdb84e8.ctex::
 CUNAGUARO.png::CompressedTexture2D::6768737151336347631::1769401976::1769402005::1::::<><><>0<>0<>6b62235a502385846c0a4b93a9755683<>res://.godot/imported/CUNAGUARO.png-c19cc22d8094ccd8b1fce26bdcb26a4a.ctex::
-::res://Tiles/::1766463831
+::res://Tiles/::1769573665
 tilemap.png::CompressedTexture2D::8669766103818259958::1766463831::1766463831::1::::<><><>0<>0<>2bae9dc3b8a236a0509e31dd02539bfe<>res://.godot/imported/tilemap.png-5c2b08624280d7048de2cee6d34e97b8.ctex::
 tile_0000.png::CompressedTexture2D::5184554002731157187::1766463664::1766463667::1::::<><><>0<>0<>28bae544f859176725b9ef9ac4739074<>res://.godot/imported/tile_0000.png-21f0d8b70cc009b9193bcf4595ca892f.ctex::
 tile_0001.png::CompressedTexture2D::816645015863413406::1766463664::1766463667::1::::<><><>0<>0<>ab7b2b14ca427942344e5b3b8c0c7c83<>res://.godot/imported/tile_0001.png-83b1dcc86b4731a4ee5e9f78b966fda8.ctex::
@@ -209,7 +209,7 @@ tile_0176.png::CompressedTexture2D::8009288942149884903::1766463666::1766463667:
 tile_0177.png::CompressedTexture2D::1727375139474562847::1766463666::1766463667::1::::<><><>0<>0<>13bb1a059dc50476891758b22db025b1<>res://.godot/imported/tile_0177.png-89540813795dd0c33745029d42223131.ctex::
 tile_0178.png::CompressedTexture2D::6482965223413123638::1766463666::1766463667::1::::<><><>0<>0<>659f93bda4db24a24ab0c17a28b20bdd<>res://.godot/imported/tile_0178.png-09caf0eb191cd5c92c84dd31e67644b9.ctex::
 tile_0179.png::CompressedTexture2D::109774905394531448::1766463666::1766463667::1::::<><><>0<>0<>0503c10748f66f6113c807c5ea94ce77<>res://.godot/imported/tile_0179.png-af7e8e946d57a21cce9508a6a8e766f8.ctex::
-::res://Tiles/Backgrounds/::1766463667
+::res://Tiles/Backgrounds/::1769573665
 tile_0000.png::CompressedTexture2D::95079100318449636::1766463664::1766463667::1::::<><><>0<>0<>89115c4e30928f5850dcddc488ba40ad<>res://.godot/imported/tile_0000.png-a66ba2d75f33252885685c29e19a22e9.ctex::
 tile_0001.png::CompressedTexture2D::5462368515631920725::1766463664::1766463667::1::::<><><>0<>0<>55371c23041a03570ad684298305898e<>res://.godot/imported/tile_0001.png-06b2a04eb64c57bd054fff07bcd75981.ctex::
 tile_0002.png::CompressedTexture2D::6749378996195438190::1766463664::1766463667::1::::<><><>0<>0<>bdb098f096da046b1ab5cfb4fa0e02b2<>res://.godot/imported/tile_0002.png-17a239a40a2f01d4b4e9938e8d4778c9.ctex::
@@ -234,7 +234,7 @@ tile_0020.png::CompressedTexture2D::7551417712371459998::1766463664::1766463667:
 tile_0021.png::CompressedTexture2D::1046155667024246974::1766463664::1766463667::1::::<><><>0<>0<>7a40c5e925da98311afc83cc207612df<>res://.godot/imported/tile_0021.png-6f7d583e32bbe9bda5f572d86d8c9fc2.ctex::
 tile_0022.png::CompressedTexture2D::3378467602973964488::1766463664::1766463667::1::::<><><>0<>0<>d0f6301b8011730fb838ed3849fa4238<>res://.godot/imported/tile_0022.png-f51506491cf5186d74241a8445e5ea91.ctex::
 tile_0023.png::CompressedTexture2D::8484035225147248213::1766463664::1766463667::1::::<><><>0<>0<>7e08edfd3a22d50b7f6853d17d46f920<>res://.godot/imported/tile_0023.png-0c0036b449f5e7ddba9d16b363e6f6e9.ctex::
-::res://Tiles/Characters/::1766463667
+::res://Tiles/Characters/::1769573665
 tile_0000.png::CompressedTexture2D::8632577010865601498::1766463664::1766463667::1::::<><><>0<>0<>0a8c60748a3a73f95bbc4133e48eb718<>res://.godot/imported/tile_0000.png-addec780c5b5829f27210e7d6fbf955b.ctex::
 tile_0001.png::CompressedTexture2D::2067756668071592036::1766463664::1766463667::1::::<><><>0<>0<>1ba5b873c5caa41772e5b99d1ebf2f59<>res://.godot/imported/tile_0001.png-37635aeab6036fce48d7b9f357faa193.ctex::
 tile_0002.png::CompressedTexture2D::435688950865998500::1766463664::1766463667::1::::<><><>0<>0<>ee969c36d82ff794e50db21f6b237a65<>res://.godot/imported/tile_0002.png-0ffe59f4a87bf228b5f8ab66276eda15.ctex::
