@@ -1,14 +1,14 @@
-AnimatedSprite2D
+ColorRect
 CollisionShape2D
+StaticBody2D
+AnimatedSprite2D
 CharacterBody2D
 Sprite2D
 Area2D
 TextureRect
 Node2D
-StaticBody2D
 Node
 Button
 VBoxContainer
-ColorRect
 ParallaxLayer
 ParallaxBackground
