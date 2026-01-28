@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1769574200
+::res://::1769620345
 camera_2d.gd::GDScript::8667666118071980707::1767754489::0::1::::<>Camera2D<><>0<>0<><>::
 icon.svg::CompressedTexture2D::6637943192390016884::1765842283::1765842321::1::::<><><>0<>0<>7b0e0cdf6d2b353c7934f6358bac4642<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 mapa.tscn::PackedScene::7896550604539122410::1769403076::0::1::::<><><>0<>0<><>::uid://cf4o32cuwu5vb::::res://Tiles/tile_0000.png<>uid://bkuv3wkk4midf::::res://Panel 1 (2).jpg<>uid://bifdd63rhsbeo::::res://Tiles/tile_0020.png<>uid://d4ml46j7wcq5e::::res://Tiles/tile_0110.png<>uid://c2yoq1rbuqowb::::res://Tiles/tile_0130.png<>uid://bisx3fg5jai4o::::res://Tiles/tile_0021.png<>uid://cgws4ftu27nmt::::res://Tiles/tile_0022.png<>uid://bxa3d3laurwyk::::res://Tiles/tile_0023.png<>uid://bo2jdfsgvci8d::::res://Tiles/tile_0024.png<>uid://v7pwn4d7kkbj::::res://Tiles/tile_0025.png<>uid://clf45l5dmbfc2::::res://Tiles/tile_0140.png<>uid://5ords10agjvx::::res://Tiles/tile_0104.png<>uid://brwiv6c3khwie::::res://Tiles/tile_0120.png<>uid://dfbwgyephs3t3::::res://Tiles/tile_0121.png<>uid://xm7fyx3pvmo::::res://Tiles/tile_0122.png<>uid://dh73na3aih4xd::::res://Tiles/tile_0123.png<>uid://bvecb45twrdvt::::res://Tiles/tile_0047.png<>uid://o5oerdqebll::::res://Tiles/tile_0141.png<>uid://da3cbbmadfmy4::::res://Tiles/tile_0048.png<>uid://bm3tjltspqajc::::res://Tiles/tile_0049.png<>uid://cvatc4ptid01v::::res://Tiles/tile_0050.png<>uid://brywdg0u2up4b::::res://Tiles/tile_0142.png<>uid://cqeu3ea02j6xb::::res://Tiles/tile_0143.png<>uid://dvqxgu7wxxrdr::::res://camera_2d.gd<>uid://ldt20npghn0n::::res://juego/cangrejo.tscn<>uid://colfoqbdxo0qa::::res://juego/charco.tscn
@@ -262,3 +262,25 @@ tile_0023.png::CompressedTexture2D::9151660042155849675::1766463664::1766463667:
 tile_0024.png::CompressedTexture2D::5734692786869921760::1766463664::1766463667::1::::<><><>0<>0<>68bfdec0f8f2030d03efa20f0acfd75a<>res://.godot/imported/tile_0024.png-46aada3255072c72d615ca4942d55240.ctex::
 tile_0025.png::CompressedTexture2D::192815640864308202::1766463664::1766463667::1::::<><><>0<>0<>5920d1943333256e07f9efad494bb09b<>res://.godot/imported/tile_0025.png-080cbcbd90d0cba76883cd1efd54d58b.ctex::
 tile_0026.png::CompressedTexture2D::9035668303644293935::1766463664::1766463667::1::::<><><>0<>0<>6aeaf1f20cbb747dda611e83d5062660<>res://.godot/imported/tile_0026.png-f170678f947f4bbb0bedfe77f04ff4c8.ctex::
+::res://waz/::1769619706
+::res://waz/fondo menu de inicio/::1769619712
+cielo-Sheet.png::CompressedTexture2D::3128602305707705908::1769574992::1769619712::1::::<><><>0<>0<>e776d8bc378dcd882486370199a2ace7<>res://.godot/imported/cielo-Sheet.png-fb7cd2b2bdd238d34a0c0d03a0be9062.ctex::
+cielo.png::CompressedTexture2D::8538382743500638661::1769574992::1769619712::1::::<><><>0<>0<>e040581f4f7b4de372117eddf95a578d<>res://.godot/imported/cielo.png-f0e2013660365ff4aab2fa8c614c49df.ctex::
+montanas y salto el angel.png::CompressedTexture2D::951523979087711625::1769574992::1769619712::1::::<><><>0<>0<>700ab2ac80f9a1ed03716216f3ea0fb8<>res://.godot/imported/montanas y salto el angel.png-aca4bff59b61c08777b5269f53eef2ce.ctex::
+near-clouds.png::CompressedTexture2D::5000344968544216478::1769574992::1769619712::1::::<><><>0<>0<>cdf72943109ec3d1f3689137aa9cfe5a<>res://.godot/imported/near-clouds.png-41290737a44f652974766d62df59e015.ctex::
+playa y llano.png::CompressedTexture2D::5617575831934395510::1769574992::1769619712::1::::<><><>0<>0<>515c6d2a8022ce25b8bfff31c2e7fdca<>res://.godot/imported/playa y llano.png-895b2514885aa96bd6aa16a9ba4f7a51.ctex::
+script_parallax_background.gd::GDScript::7946057414505552090::1769574992::0::1::::<>ParallaxBackground<><>0<>0<><>::
+::res://waz/fondos/::1769619712
+far-clouds2-Sheet.png::CompressedTexture2D::1270926220442901755::1769574992::1769619712::1::::<><><>0<>0<>0b45a3b738778a034ae8e5ebb384915a<>res://.godot/imported/far-clouds2-Sheet.png-2fd11669d55607b4dc12b7349ed5659a.ctex::
+far-mountain2s-Sheet.png::CompressedTexture2D::1627158683951324643::1769574992::1769619712::1::::<><><>0<>0<>dc35619dcd3a96bc737caf4cf2bee2e8<>res://.godot/imported/far-mountain2s-Sheet.png-6b11315f550b17197c12ce41651a9c52.ctex::
+mar.png::CompressedTexture2D::3236857824721640787::1769574992::1769619712::1::::<><><>0<>0<>3836d5f929f0ac6c7c06de9f5ee3e47f<>res://.godot/imported/mar.png-6a278f1cd7c38a5ad6e33646a1c9b9aa.ctex::
+mountains2-Sheet.png::CompressedTexture2D::6451650603982637814::1769574992::1769619712::1::::<><><>0<>0<>703a4dbe268369818f3c4935b2048b13<>res://.godot/imported/mountains2-Sheet.png-a0018bac923c4df4ce02a7307d419c06.ctex::
+mountains.png::CompressedTexture2D::3504979022516339947::1769574992::1769619712::1::::<><><>0<>0<>42621baecdd565c32fb3ccdfffc92a6b<>res://.godot/imported/mountains.png-40df91fb08bfe66c629589ace5ff58c2.ctex::
+near-cloud2s-Sheet.png::CompressedTexture2D::7991290167062887552::1769574992::1769619712::1::::<><><>0<>0<>1c6aa5b2c6ccb4ab54c930b1b375fcf5<>res://.godot/imported/near-cloud2s-Sheet.png-cbdf789879641d1530e03c40e92f82cb.ctex::
+pueblo2.png::CompressedTexture2D::1520545353949783987::1769574992::1769619712::1::::<><><>0<>0<>6632e9048c85539a65a3702ef61874db<>res://.godot/imported/pueblo2.png-2d33a2189c2d6530016d1e98367dd12c.ctex::
+pueblo3-Sheet.png::CompressedTexture2D::4987753713368640304::1769574992::1769619712::1::::<><><>0<>0<>d287be6fb4c71e7f5ddacac3ab9754d1<>res://.godot/imported/pueblo3-Sheet.png-5c3674b05286d9788384caa4c63dc526.ctex::
+puebloSheet.png::CompressedTexture2D::4545888473475558388::1769574992::1769619712::1::::<><><>0<>0<>7f1ebe4d5f7e1b45ac51bf81af81e8c3<>res://.godot/imported/puebloSheet.png-2beb9f5bfcdab77b400241b84c71d03c.ctex::
+Pueblot2-Sheet.png::CompressedTexture2D::6592644150811318089::1769574992::1769619712::1::::<><><>0<>0<>3041c8104c392d396aaea4915c20eaee<>res://.godot/imported/Pueblot2-Sheet.png-689734d5ae2d71512cadbf8ccb6143fe.ctex::
+Pueblot.png::CompressedTexture2D::4116014237374214521::1769574992::1769619712::1::::<><><>0<>0<>d03fa996a21796e7317b6d5c39db289b<>res://.godot/imported/Pueblot.png-1dd31e78b189032c3d758bcb653b531f.ctex::
+Sky.png::CompressedTexture2D::6430367394708011394::1769574992::1769619712::1::::<><><>0<>0<>17b6007fccef7a4f362265bf17fd6175<>res://.godot/imported/Sky.png-56db26c4edf512397ee45f45a2545025.ctex::
+solt.png::CompressedTexture2D::4915877094202021381::1769574992::1769619712::1::::<><><>0<>0<>3f1c84a332b5fad62575a307fe2379c9<>res://.godot/imported/solt.png-0616c850546865f0dd43a34c73564ad0.ctex::

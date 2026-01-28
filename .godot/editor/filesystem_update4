@@ -1,0 +1,6 @@
+res://mapa.tscn
+res://Escenas/personaje.tscn
+res://Scrips/camera_2d.gd
+res://Scrips/Personaje.gd
+res://Scrips/cangrejo.gd
+res://juego/cangrejo.tscn

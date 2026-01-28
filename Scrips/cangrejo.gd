@@ -14,3 +14,9 @@ func _physics_process(delta):
 		velocity.x = -50
 		
 	move_and_slide()
+
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body is CharacterBody2D:
+		get_tree().reload_current_scene()

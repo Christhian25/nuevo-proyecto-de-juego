@@ -1,10 +1,7 @@
-[gd_scene load_steps=21 format=3 uid="uid://b54fiaetk82d1"]
+[gd_scene load_steps=20 format=3 uid="uid://b54fiaetk82d1"]
 
 [ext_resource type="Script" uid="uid://bo56vj5nkpgfc" path="res://Scrips/Personaje.gd" id="1_0a5x8"]
 [ext_resource type="Texture2D" uid="uid://c3o3d2onavvj8" path="res://sprite animados/CUNAGUARO.png" id="1_ly3pf"]
-
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_s1y1a"]
-size = Vector2(39, 38)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0a5x8"]
 size = Vector2(93, 74)
@@ -139,22 +136,9 @@ animations = [{
 
 [node name="Personaje" type="Node2D"]
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
-position = Vector2(-12.000001, 247.99998)
-scale = Vector2(15.427287, 0.47136724)
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2(20.5, 19)
-shape = SubResource("RectangleShape2D_s1y1a")
-
-[node name="ColorRect" type="ColorRect" parent="StaticBody2D"]
-offset_right = 40.0
-offset_bottom = 40.0
-color = Color(0.06890045, 0.098551385, 0.30638483, 1)
-
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(130, 16)
-scale = Vector2(0.44000003, 0.35999936)
+scale = Vector2(0.19999878, 0.15999936)
 script = ExtResource("1_0a5x8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
@@ -165,3 +149,11 @@ shape = SubResource("RectangleShape2D_0a5x8")
 position = Vector2(4, -2)
 sprite_frames = SubResource("SpriteFrames_67s6e")
 animation = &"walk"
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+scale = Vector2(3.7499924, 1)
+limit_bottom = 600
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_bottom_margin = 0.0
+editor_draw_drag_margin = true
