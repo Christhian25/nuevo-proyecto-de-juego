@@ -1,0 +1,58 @@
+[gd_scene load_steps=6 format=3 uid="uid://cuw7slngvulxi"]
+
+[ext_resource type="Script" uid="uid://dlhen02w8ms6e" path="res://fondo menu de inicio/script_parallax_background.gd" id="1_fj26m"]
+[ext_resource type="Texture2D" uid="uid://bktrvgbxvdkae" path="res://fondo menu de inicio/cielo-Sheet.png" id="1_s3pfh"]
+[ext_resource type="Texture2D" uid="uid://cdig7lo7i4fis" path="res://fondo menu de inicio/near-clouds.png" id="2_fj26m"]
+[ext_resource type="Texture2D" uid="uid://ns6pw235eqw4" path="res://fondo menu de inicio/montanas y salto el angel.png" id="3_0gtmf"]
+[ext_resource type="Texture2D" uid="uid://cmbgwhd6gv3kk" path="res://fondo menu de inicio/playa y llano.png" id="4_lllob"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+script = ExtResource("1_fj26m")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(360, 0)
+
+[node name="CieloSheet" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+texture = ExtResource("1_s3pfh")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(288, 0)
+
+[node name="NearClouds" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+texture = ExtResource("2_fj26m")
+centered = false
+
+[node name="NearClouds2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+position = Vector2(144, 0)
+texture = ExtResource("2_fj26m")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.7, 0.7)
+motion_mirroring = Vector2(320, 0)
+
+[node name="MontanasYSaltoElAngel" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+texture = ExtResource("3_0gtmf")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(320, 0)
+
+[node name="PlayaYLlano" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+texture_filter = 1
+texture = ExtResource("4_lllob")
+centered = false
