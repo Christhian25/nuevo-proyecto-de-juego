@@ -1,0 +1,72 @@
+[gd_scene load_steps=10 format=3 uid="uid://ldt20npghn0n"]
+
+[ext_resource type="Script" uid="uid://f477vrqx88c2" path="res://Scrips/cangrejo.gd" id="1_gheno"]
+[ext_resource type="Texture2D" uid="uid://bq2243kyauts0" path="res://sprite animados/cangrejo de manglar walk64x64.png" id="2_tv0ln"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ih4ve"]
+size = Vector2(32, 12)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oilel"]
+atlas = ExtResource("2_tv0ln")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_up1bg"]
+atlas = ExtResource("2_tv0ln")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7at6o"]
+atlas = ExtResource("2_tv0ln")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_li8n2"]
+atlas = ExtResource("2_tv0ln")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_lomko"]
+resource_local_to_scene = true
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oilel")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_up1bg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7at6o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_li8n2")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_plqqi"]
+size = Vector2(34, 14)
+
+[node name="cangrejo" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(85, 54)
+collision_layer = 129
+collision_mask = 129
+script = ExtResource("1_gheno")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(-1, 6)
+shape = SubResource("RectangleShape2D_ih4ve")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+scale = Vector2(0.60937494, 0.56249994)
+sprite_frames = SubResource("SpriteFrames_lomko")
+animation = &"walk"
+autoplay = "walk"
+frame_progress = 0.104090735
+
+[node name="Area2D" type="Area2D" parent="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+position = Vector2(-1, 6)
+shape = SubResource("RectangleShape2D_plqqi")

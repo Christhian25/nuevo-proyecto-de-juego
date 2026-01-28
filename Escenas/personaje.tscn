@@ -1,0 +1,150 @@
+[gd_scene load_steps=20 format=3 uid="uid://b54fiaetk82d1"]
+
+[ext_resource type="Script" uid="uid://bo56vj5nkpgfc" path="res://Scrips/Personaje.gd" id="1_0a5x8"]
+[ext_resource type="Texture2D" uid="uid://c3o3d2onavvj8" path="res://sprite animados/CUNAGUARO.png" id="1_ly3pf"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0a5x8"]
+size = Vector2(93, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s1y1a"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(298, 1400, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vpgkb"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(447, 1400, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a0nbt"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(596, 1400, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h6k3q"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 1400, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67s6e"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 400, 149, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ytpom"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(149, 800, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_abn35"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(447, 800, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7mc8t"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(447, 1200, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_we8kp"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(596, 1200, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqv1q"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 1200, 149, 200)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eonq6"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 0, 149, 98)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h41w3"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 98, 149, 98)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ypn5l"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 196, 149, 98)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5ld0"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 294, 149, 98)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_objvd"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(745, 392, 149, 98)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_67s6e"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s1y1a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vpgkb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a0nbt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h6k3q")
+}],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67s6e")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ytpom")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_abn35")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7mc8t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_we8kp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqv1q")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eonq6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_h41w3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ypn5l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5ld0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_objvd")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="Personaje" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(206, 132)
+script = ExtResource("1_0a5x8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(23.5, 0)
+shape = SubResource("RectangleShape2D_0a5x8")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+position = Vector2(4, -2)
+sprite_frames = SubResource("SpriteFrames_67s6e")
+animation = &"walk"
