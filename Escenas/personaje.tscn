@@ -137,7 +137,8 @@ animations = [{
 [node name="Personaje" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-position = Vector2(206, 132)
+position = Vector2(130, 16)
+scale = Vector2(0.19999878, 0.15999936)
 script = ExtResource("1_0a5x8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
@@ -148,3 +149,11 @@ shape = SubResource("RectangleShape2D_0a5x8")
 position = Vector2(4, -2)
 sprite_frames = SubResource("SpriteFrames_67s6e")
 animation = &"walk"
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+scale = Vector2(3.7499924, 1)
+limit_bottom = 600
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+drag_bottom_margin = 0.0
+editor_draw_drag_margin = true
