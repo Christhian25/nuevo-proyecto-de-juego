@@ -1,8 +1,10 @@
+ParallaxLayer
+ParallaxBackground
+Node2D
 Camera2D
 Node
 CollisionShape2D
 StaticBody2D
-Node2D
 ColorRect
 AnimatedSprite2D
 CharacterBody2D
@@ -10,5 +12,3 @@ Sprite2D
 Area2D
 TextureRect
 Button
-VBoxContainer
-ParallaxLayer

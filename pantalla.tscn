@@ -1,7 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://bv13rslfx58l1"]
+[gd_scene load_steps=7 format=3 uid="uid://bv13rslfx58l1"]
 
 [ext_resource type="Script" uid="uid://c1d6m6o5ijrgx" path="res://Scrips/pantalla.gd" id="1_1il0s"]
-[ext_resource type="Texture2D" uid="uid://css7j2y3nmcn0" path="res://Panel 2.jpg" id="1_minhw"]
+[ext_resource type="Texture2D" uid="uid://dtwb6fiy45pnp" path="res://fondo menu de inicio/cielo.png" id="2_ggiu5"]
+[ext_resource type="Script" uid="uid://ddwajw3lm3xh1" path="res://parallax_background_Menu.gd" id="2_l0q2b"]
+[ext_resource type="Texture2D" uid="uid://cdig7lo7i4fis" path="res://fondo menu de inicio/near-clouds.png" id="3_l0q2b"]
+[ext_resource type="Texture2D" uid="uid://ns6pw235eqw4" path="res://fondo menu de inicio/montanas y salto el angel.png" id="4_rxl0j"]
+[ext_resource type="Texture2D" uid="uid://cmbgwhd6gv3kk" path="res://fondo menu de inicio/playa y llano.png" id="5_gbuw4"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -11,25 +15,6 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_1il0s")
-
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-color = Color(0.18129736, 0.27814624, 0.56764203, 1)
-
-[node name="TextureRect" type="TextureRect" parent="ColorRect"]
-layout_mode = 1
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("1_minhw")
-expand_mode = 1
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
@@ -57,6 +42,57 @@ text = "Opcion
 [node name="Quit" type="Button" parent="VBoxContainer"]
 layout_mode = 2
 text = "Salir"
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Node2D"]
+script = ExtResource("2_l0q2b")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(360, 0)
+
+[node name="Cielo" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+texture = ExtResource("2_ggiu5")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(288, 0)
+
+[node name="NearClouds" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+texture = ExtResource("3_l0q2b")
+centered = false
+
+[node name="NearClouds2" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+position = Vector2(144, 0)
+texture = ExtResource("3_l0q2b")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(320, 0)
+
+[node name="MontanasYSaltoElAngel" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+texture = ExtResource("4_rxl0j")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.9, 0.9)
+motion_mirroring = Vector2(320, 0)
+
+[node name="PlayaYLlano" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer4"]
+texture_filter = 1
+texture = ExtResource("5_gbuw4")
+centered = false
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_opcion_pressed"]
