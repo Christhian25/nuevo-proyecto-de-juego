@@ -1,4 +1,5 @@
-res://pantalla.tscn
-res://parallax_background_Menu.gd
-res://opciones.tscn
-res://parallax_background_menu2.gd
+res://Scrips/cangrejo.gd
+res://juego/cangrejo.tscn
+res://Escenas/personaje.tscn
+res://mapa.tscn
+res://Scrips/killzone.gd

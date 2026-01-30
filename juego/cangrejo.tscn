@@ -68,7 +68,10 @@ frame_progress = 0.104090735
 [node name="Area2D" type="Area2D" parent="CharacterBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+light_mask = 2
+visibility_layer = 2
 position = Vector2(-1, 6)
 shape = SubResource("RectangleShape2D_plqqi")
 
 [connection signal="area_entered" from="CharacterBody2D/Area2D" to="CharacterBody2D" method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="CharacterBody2D/Area2D" to="CharacterBody2D" method="_on_area_2d_body_entered"]

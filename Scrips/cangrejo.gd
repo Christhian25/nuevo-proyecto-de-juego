@@ -17,6 +17,9 @@ func _physics_process(delta):
 
 
 
-func _on_area_2d_body_entered(body: Node2D) -> void:
-	if body is CharacterBody2D:
+
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("jugador"):
 		get_tree().reload_current_scene()
