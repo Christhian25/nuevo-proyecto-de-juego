@@ -1,4 +1,4 @@
-[gd_scene load_steps=64 format=4 uid="uid://dkrfbggccg5r7"]
+[gd_scene load_steps=65 format=4 uid="uid://dkrfbggccg5r7"]
 
 [ext_resource type="Texture2D" uid="uid://cf4o32cuwu5vb" path="res://Tiles/tile_0000.png" id="1_log2u"]
 [ext_resource type="Texture2D" uid="uid://bkuv3wkk4midf" path="res://Panel 1 (2).jpg" id="2_8ahop"]
@@ -27,6 +27,7 @@
 [ext_resource type="PackedScene" uid="uid://ldt20npghn0n" path="res://juego/cangrejo.tscn" id="25_vq8sh"]
 [ext_resource type="PackedScene" uid="uid://colfoqbdxo0qa" path="res://juego/charco.tscn" id="26_a04ho"]
 [ext_resource type="PackedScene" uid="uid://b54fiaetk82d1" path="res://Escenas/personaje.tscn" id="26_xxtyk"]
+[ext_resource type="PackedScene" uid="uid://bfj5lyjyk6uvi" path="res://barra_vida.tscn" id="28_p4jw8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c0hg7"]
 texture = ExtResource("1_log2u")
@@ -327,5 +328,7 @@ position = Vector2(1064, -102)
 
 [node name="Personaje" parent="personaje" instance=ExtResource("26_xxtyk")]
 position = Vector2(-1127, 315)
+
+[node name="CanvasLayer" parent="." instance=ExtResource("28_p4jw8")]
 
 [connection signal="area_entered" from="Fondo/Killzone" to="Fondo/Killzone" method="_on_area_entered"]
