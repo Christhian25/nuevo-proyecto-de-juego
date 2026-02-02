@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Nuevo Proyecto de Juego2"
-run/main_scene="res://personaje.tscn"
+run/main_scene="uid://bv13rslfx58l1"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
 

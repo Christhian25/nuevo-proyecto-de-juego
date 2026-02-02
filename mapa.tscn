@@ -78,6 +78,7 @@ texture_region_size = Vector2i(18, 18)
 texture = ExtResource("8_vq8sh")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ytx46"]
 texture = ExtResource("2_ke6xc")
@@ -106,21 +107,25 @@ texture_region_size = Vector2i(18, 18)
 texture = ExtResource("6_2qpv4")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_boe6i"]
 texture = ExtResource("7_no3ml")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4b014"]
 texture = ExtResource("8_wlgur")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0xjqb"]
 texture = ExtResource("9_8ahop")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_aa8fq"]
 texture = ExtResource("10_vq8sh")
@@ -132,6 +137,7 @@ texture_region_size = Vector2i(18, 18)
 texture = ExtResource("14_a04ho")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_a3kdj"]
 texture = ExtResource("11_a04ho")
@@ -201,11 +207,13 @@ texture_region_size = Vector2i(18, 18)
 texture = ExtResource("21_xxtyk")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_c7ub2"]
 texture = ExtResource("22_p4jw8")
 texture_region_size = Vector2i(18, 18)
 0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-9, -9, 9, -9, 9, 9, -9, 9)
 
 [sub_resource type="TileSet" id="TileSet_mxg1m"]
 tile_size = Vector2i(18, 18)
@@ -258,6 +266,33 @@ tile_set = SubResource("TileSet_um40f")
 motion_mirroring = Vector2(465, 170)
 
 [node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxBackground/ParallaxLayer"]
+position = Vector2(10.999999, -214.99998)
+scale = Vector2(5.0645156, 4.807018)
+texture = ExtResource("2_8ahop")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Fondo/ParallaxBackground"]
+motion_mirroring = Vector2(465, 170)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxBackground/ParallaxLayer2"]
+position = Vector2(10.999999, -214.99998)
+scale = Vector2(5.0645156, 4.807018)
+texture = ExtResource("2_8ahop")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="Fondo/ParallaxBackground"]
+motion_mirroring = Vector2(465, 170)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxBackground/ParallaxLayer3"]
+position = Vector2(10.999999, -214.99998)
+scale = Vector2(5.0645156, 4.807018)
+texture = ExtResource("2_8ahop")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="Fondo/ParallaxBackground"]
+motion_mirroring = Vector2(465, 170)
+
+[node name="Sprite2D" type="Sprite2D" parent="Fondo/ParallaxBackground/ParallaxLayer4"]
 position = Vector2(10.999999, -214.99998)
 scale = Vector2(5.0645156, 4.807018)
 texture = ExtResource("2_8ahop")

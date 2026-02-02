@@ -1,10 +1,26 @@
-[gd_scene load_steps=17 format=3 uid="uid://b54fiaetk82d1"]
+[gd_scene load_steps=21 format=3 uid="uid://b54fiaetk82d1"]
 
 [ext_resource type="Script" uid="uid://bo56vj5nkpgfc" path="res://Scrips/Personaje.gd" id="1_0a5x8"]
 [ext_resource type="Texture2D" uid="uid://c3o3d2onavvj8" path="res://sprite animados/CUNAGUARO.png" id="1_ly3pf"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0a5x8"]
 size = Vector2(95.00012, 74)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_we8kp"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(0, 2363, 179, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xqv1q"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(179, 2363, 179, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m5ld0"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(358, 2363, 179, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_objvd"]
+atlas = ExtResource("1_ly3pf")
+region = Rect2(537, 2363, 179, 139)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_s1y1a"]
 atlas = ExtResource("1_ly3pf")
@@ -52,6 +68,23 @@ region = Rect2(537, 1872, 179, 144)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_67s6e"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_we8kp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xqv1q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m5ld0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_objvd")
+}],
+"loop": true,
+"name": &"atack",
+"speed": 5.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_s1y1a")
@@ -124,8 +157,8 @@ shape = SubResource("RectangleShape2D_0a5x8")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 position = Vector2(4, -2)
 sprite_frames = SubResource("SpriteFrames_67s6e")
-animation = &"fall"
-frame_progress = 0.23523106
+animation = &"atack"
+frame_progress = 0.73304373
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 scale = Vector2(3.7499924, 1)
