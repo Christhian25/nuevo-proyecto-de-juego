@@ -25,7 +25,7 @@
 [ext_resource type="Texture2D" uid="uid://brywdg0u2up4b" path="res://Tiles/tile_0142.png" id="21_xxtyk"]
 [ext_resource type="Texture2D" uid="uid://cqeu3ea02j6xb" path="res://Tiles/tile_0143.png" id="22_p4jw8"]
 [ext_resource type="PackedScene" uid="uid://ldt20npghn0n" path="res://juego/cangrejo.tscn" id="25_vq8sh"]
-[ext_resource type="PackedScene" uid="uid://b54fiaetk82d1" path="res://Escenas/personaje.tscn" id="26_xxtyk"]
+[ext_resource type="PackedScene" uid="uid://b54fiaetk82d1" path="res://escenas/personaje.tscn" id="26_xxtyk"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_a04ho"]
 

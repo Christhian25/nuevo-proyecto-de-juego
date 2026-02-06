@@ -1,11 +1,12 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1770348157
+::res://::1770358370
+area_2d.gd::GDScript::3956778794905458661::1770347929::0::1::::<>Area2D<><>0<>0<><>::
 barra_vida.tscn::PackedScene::2757786730754447738::1770051877::0::1::::<><><>0<>0<><>::
 camera_2d.gd::GDScript::8667666118071980707::1767754489::0::1::::<>Camera2D<><>0<>0<><>::
 fondo.tscn::PackedScene::6607149791082592262::1770341249::0::1::::<><><>0<>0<><>::uid://cxu6hgq5jse15::::res://fondos/Sky.png<>uid://dss47njycirp1::::res://fondos/nube.png
 icon.svg::CompressedTexture2D::6637943192390016884::1765842283::1770049804::1::::<><><>0<>0<>7b0e0cdf6d2b353c7934f6358bac4642<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-mapa.tscn::PackedScene::7896550604539122410::1770348157::0::1::::<><><>0<>0<><>::uid://dgfgb013uinl6::::res://fondos/cielo.png<>uid://bifdd63rhsbeo::::res://Tiles/tile_0020.png<>uid://dss47njycirp1::::res://fondos/nube.png<>uid://d4ml46j7wcq5e::::res://Tiles/tile_0110.png<>uid://c2yoq1rbuqowb::::res://Tiles/tile_0130.png<>uid://bisx3fg5jai4o::::res://Tiles/tile_0021.png<>uid://y2u0eewptgvj::::res://Scrips/killzone.gd<>uid://cgws4ftu27nmt::::res://Tiles/tile_0022.png<>uid://bxa3d3laurwyk::::res://Tiles/tile_0023.png<>uid://bo2jdfsgvci8d::::res://Tiles/tile_0024.png<>uid://v7pwn4d7kkbj::::res://Tiles/tile_0025.png<>uid://clf45l5dmbfc2::::res://Tiles/tile_0140.png<>uid://5ords10agjvx::::res://Tiles/tile_0104.png<>uid://brwiv6c3khwie::::res://Tiles/tile_0120.png<>uid://dfbwgyephs3t3::::res://Tiles/tile_0121.png<>uid://xm7fyx3pvmo::::res://Tiles/tile_0122.png<>uid://dh73na3aih4xd::::res://Tiles/tile_0123.png<>uid://bvecb45twrdvt::::res://Tiles/tile_0047.png<>uid://o5oerdqebll::::res://Tiles/tile_0141.png<>uid://da3cbbmadfmy4::::res://Tiles/tile_0048.png<>uid://bm3tjltspqajc::::res://Tiles/tile_0049.png<>uid://cvatc4ptid01v::::res://Tiles/tile_0050.png<>uid://brywdg0u2up4b::::res://Tiles/tile_0142.png<>uid://cqeu3ea02j6xb::::res://Tiles/tile_0143.png<>uid://ldt20npghn0n::::res://juego/cangrejo.tscn<>uid://b54fiaetk82d1::::res://Escenas/personaje.tscn
-opciones.tscn::PackedScene::3171617418469983207::1769791690::0::1::::<><><>0<>0<><>::uid://dh4w0y1r1t321::::res://Scrips/opciones.gd<>uid://bukkdcsqwacjm::::res://parallax_background_menu2.gd<>uid://bktrvgbxvdkae::::res://fondo menu de inicio/cielo-Sheet.png<>uid://cdig7lo7i4fis::::res://fondo menu de inicio/near-clouds.png<>uid://ns6pw235eqw4::::res://fondo menu de inicio/montanas y salto el angel.png<>uid://cmbgwhd6gv3kk::::res://fondo menu de inicio/playa y llano.png
+mapa.tscn::PackedScene::7896550604539122410::1770358444::0::1::::<><><>0<>0<><>::uid://dgfgb013uinl6::::res://fondos/cielo.png<>uid://cdcdtsvoaleyy::::res://fondos/pueblo3-Sheet.png<>uid://bifdd63rhsbeo::::res://Tiles/tile_0020.png<>uid://d4ml46j7wcq5e::::res://Tiles/tile_0110.png<>uid://c2yoq1rbuqowb::::res://Tiles/tile_0130.png<>uid://bisx3fg5jai4o::::res://Tiles/tile_0021.png<>uid://y2u0eewptgvj::::res://Scrips/killzone.gd<>uid://cgws4ftu27nmt::::res://Tiles/tile_0022.png<>uid://bxa3d3laurwyk::::res://Tiles/tile_0023.png<>uid://bo2jdfsgvci8d::::res://Tiles/tile_0024.png<>uid://v7pwn4d7kkbj::::res://Tiles/tile_0025.png<>uid://clf45l5dmbfc2::::res://Tiles/tile_0140.png<>uid://5ords10agjvx::::res://Tiles/tile_0104.png<>uid://brwiv6c3khwie::::res://Tiles/tile_0120.png<>uid://dfbwgyephs3t3::::res://Tiles/tile_0121.png<>uid://xm7fyx3pvmo::::res://Tiles/tile_0122.png<>uid://dh73na3aih4xd::::res://Tiles/tile_0123.png<>uid://bvecb45twrdvt::::res://Tiles/tile_0047.png<>uid://o5oerdqebll::::res://Tiles/tile_0141.png<>uid://da3cbbmadfmy4::::res://Tiles/tile_0048.png<>uid://bm3tjltspqajc::::res://Tiles/tile_0049.png<>uid://cvatc4ptid01v::::res://Tiles/tile_0050.png<>uid://brywdg0u2up4b::::res://Tiles/tile_0142.png<>uid://cqeu3ea02j6xb::::res://Tiles/tile_0143.png<>uid://ldt20npghn0n::::res://juego/cangrejo.tscn<>uid://b54fiaetk82d1::::res://Escenas/personaje.tscn
+opciones.tscn::PackedScene::3171617418469983207::1770353571::0::1::::<><><>0<>0<><>::uid://dh4w0y1r1t321::::res://Scrips/opciones.gd<>uid://bukkdcsqwacjm::::res://parallax_background_menu2.gd<>uid://bktrvgbxvdkae::::res://fondo menu de inicio/cielo-Sheet.png<>uid://cdig7lo7i4fis::::res://fondo menu de inicio/near-clouds.png<>uid://ns6pw235eqw4::::res://fondo menu de inicio/montanas y salto el angel.png<>uid://cmbgwhd6gv3kk::::res://fondo menu de inicio/playa y llano.png
 Panel 1 (2).jpg::CompressedTexture2D::3130922905687389563::1766526551::1766526551::1::::<><><>0<>0<>73bbf5b8030384d2d140767634286bb4<>res://.godot/imported/Panel 1 (2).jpg-5181a3cfe7ea1d8c07e6c5fdebbffa19.ctex::
 Panel 1.jpg::CompressedTexture2D::3282616571856983::1766531490::1766531490::1::::<><><>0<>0<>3f623b17e3a581b8763146fc746ebf43<>res://.godot/imported/Panel 1.jpg-f2c01a8bd6ac770b28fe656154576d7f.ctex::
 Panel 2.jpg::CompressedTexture2D::6075359824853330443::1769398984::1769398984::1::::<><><>0<>0<>ddb2f431437b0f509afbe6bf6abaa361<>res://.godot/imported/Panel 2.jpg-ddcc86f1d169330ede13a48d37570829.ctex::
@@ -13,21 +14,20 @@ pantalla.tscn::PackedScene::3915791618663461204::1770051444::0::1::::<><><>0<>0<
 parallax_background_menu2.gd::GDScript::3811453994913274406::1769791690::0::1::::<>ParallaxBackground<><>0<>0<><>::
 parallax_background_Menu.gd::GDScript::7415262164013039332::1769791690::0::1::::<>ParallaxBackground<><>0<>0<><>::
 personaje.gd::GDScript::7857002915015800813::1766029560::0::1::::Personaje<>CharacterBody2D<><>0<>0<><>::
-area_2d.gd::GDScript::3956778794905458661::1770347929::0::1::::<>Area2D<><>0<>0<><>::
-::res://Escenas/::1770347762
+::res://Escenas/::1770358331
 mapa.tscn::PackedScene::8535070313776684367::1767755379::0::1::::<><><>0<>0<><>::uid://cf4o32cuwu5vb::::res://Tiles/tile_0000.png<>uid://bkuv3wkk4midf::::res://Panel 1 (2).jpg<>uid://bifdd63rhsbeo::::res://Tiles/tile_0020.png<>uid://d4ml46j7wcq5e::::res://Tiles/tile_0110.png<>uid://c2yoq1rbuqowb::::res://Tiles/tile_0130.png<>uid://bisx3fg5jai4o::::res://Tiles/tile_0021.png<>uid://cgws4ftu27nmt::::res://Tiles/tile_0022.png<>uid://bxa3d3laurwyk::::res://Tiles/tile_0023.png<>uid://bo2jdfsgvci8d::::res://Tiles/tile_0024.png<>uid://v7pwn4d7kkbj::::res://Tiles/tile_0025.png<>uid://clf45l5dmbfc2::::res://Tiles/tile_0140.png<>uid://5ords10agjvx::::res://Tiles/tile_0104.png<>uid://brwiv6c3khwie::::res://Tiles/tile_0120.png<>uid://dfbwgyephs3t3::::res://Tiles/tile_0121.png<>uid://xm7fyx3pvmo::::res://Tiles/tile_0122.png<>uid://dh73na3aih4xd::::res://Tiles/tile_0123.png<>uid://bvecb45twrdvt::::res://Tiles/tile_0047.png<>uid://o5oerdqebll::::res://Tiles/tile_0141.png<>uid://da3cbbmadfmy4::::res://Tiles/tile_0048.png<>uid://bm3tjltspqajc::::res://Tiles/tile_0049.png<>uid://cvatc4ptid01v::::res://Tiles/tile_0050.png<>uid://brywdg0u2up4b::::res://Tiles/tile_0142.png<>uid://cqeu3ea02j6xb::::res://Tiles/tile_0143.png<>uid://dvqxgu7wxxrdr::::res://camera_2d.gd<>uid://ldt20npghn0n::::res://juego/cangrejo.tscn<>uid://colfoqbdxo0qa::::res://juego/charco.tscn
 opciones.tscn::PackedScene::4735003815349448970::1769399849::0::1::::<><><>0<>0<><>::uid://css7j2y3nmcn0::::res://Panel 2.jpg
 pantalla.tscn::PackedScene::2146824879797813289::1769400277::0::1::::<><><>0<>0<><>::uid://c1d6m6o5ijrgx::::res://Scrips/pantalla.gd<>uid://css7j2y3nmcn0::::res://Panel 2.jpg
-personaje.tscn::PackedScene::4552270826074060020::1770347762::0::1::::<><><>0<>0<><>::uid://bo56vj5nkpgfc::::res://Scrips/Personaje.gd<>uid://c3o3d2onavvj8::::res://sprite animados/CUNAGUARO.png
+personaje.tscn::PackedScene::4552270826074060020::1770352902::0::1::::<><><>0<>0<><>::uid://bo56vj5nkpgfc::::res://Scrips/Personaje.gd<>uid://c3o3d2onavvj8::::res://sprite animados/CUNAGUARO.png
 pruebas_parallax.tscn::PackedScene::1663595684588635083::1768579138::0::1::::<><><>0<>0<><>::uid://c04ps7moodv0x::::res://Scrips_parallax_background.gd<>uid://cxu6hgq5jse15::::res://fondos/Sky.png<>uid://xghcib7wc0cl::::res://fondos/far-mountain2s-Sheet.png<>uid://dl4bm8a31jvca::::res://fondos/near-cloud2s-Sheet.png<>uid://c06r5ega6p38p::::res://fondos/Pueblot2-Sheet.png
-::res://fondo menu de inicio/::1769791734
+::res://fondo menu de inicio/::1769804651
 cielo-Sheet.png::CompressedTexture2D::3128602305707705908::1769574992::1769791734::1::::<><><>0<>0<>452372905e982f49d3a56b1254cdf588<>res://.godot/imported/cielo-Sheet.png-e8d1b2e4aad786366e3e4707b64f23a4.ctex::
 cielo.png::CompressedTexture2D::8538382743500638661::1769574992::1769791734::1::::<><><>0<>0<>acb1e0ff48bbeb7e844436b5b7d980a4<>res://.godot/imported/cielo.png-1e96c279f42808fed79e3ab9cf317d77.ctex::
 montanas y salto el angel.png::CompressedTexture2D::951523979087711625::1769574992::1769791734::1::::<><><>0<>0<>037051ffedfcac388b701dbe84e5cc8a<>res://.godot/imported/montanas y salto el angel.png-eee36d0562c3b59e15dbcc22b639d972.ctex::
 near-clouds.png::CompressedTexture2D::5000344968544216478::1769574992::1769791734::1::::<><><>0<>0<>b721b860f6bebf7a23cdcd7998d900f1<>res://.godot/imported/near-clouds.png-a61813fad7e613be5ca0e427486d6c19.ctex::
 playa y llano.png::CompressedTexture2D::5617575831934395510::1769574992::1769791734::1::::<><><>0<>0<>c46f8be64f26b0bb162e180ace435bd1<>res://.godot/imported/playa y llano.png-2a6fcc67059044ba9dc83a3d59dd8d18.ctex::
 script_parallax_background.gd::GDScript::7946057414505552090::1769574992::0::1::::<>ParallaxBackground<><>0<>0<><>::
-::res://fondos/::1770348705
+::res://fondos/::1770354574
 cielo.png::CompressedTexture2D::7591084443976216905::1770348702::1770348705::1::::<><><>0<>0<>02317961c872a719f5296df560ed3ae0<>res://.godot/imported/cielo.png-094696925151a64d530a9cb95909129c.ctex::
 far-clouds2-Sheet.png::CompressedTexture2D::1270926220442901755::1769574992::1769791734::1::::<><><>0<>0<>b0f75e783fba81d331afda569c0017a5<>res://.godot/imported/far-clouds2-Sheet.png-34bdf26dbfe120957916d95b88b0810f.ctex::
 far-mountain2s-Sheet.png::CompressedTexture2D::1627158683951324643::1769574992::1769791734::1::::<><><>0<>0<>a121c63215a45185a23457293cc5e0e5<>res://.godot/imported/far-mountain2s-Sheet.png-3601c00639421f24e7ca1e777858e0d6.ctex::
@@ -43,22 +43,23 @@ Pueblot2-Sheet.png::CompressedTexture2D::6592644150811318089::1769574992::176979
 Pueblot.png::CompressedTexture2D::4116014237374214521::1769574992::1769791734::1::::<><><>0<>0<>4a5bff6edb8c079c8ba21df38ee53a71<>res://.godot/imported/Pueblot.png-e65204851863b54b064675bbfdebb387.ctex::
 Sky.png::CompressedTexture2D::6430367394708011394::1769574992::1769791734::1::::<><><>0<>0<>2996c4e65223104b5778c55be32a4a53<>res://.godot/imported/Sky.png-62b41194b0de15090f6dcd94eb13c7e7.ctex::
 solt.png::CompressedTexture2D::4915877094202021381::1769574992::1770341452::1::::<><><>0<>0<>b760f46a974186bac530964c3c75fda8<>res://.godot/imported/solt.png-b515627d4d550759672f62f3cec471cd.ctex::
-::res://fondos animados/::1769648689
-::res://juego/::1769797041
+::res://fondos animados/::1769804651
+::res://juego/::1769804652
 cangrejo.tscn::PackedScene::779473586434581963::1769797041::0::1::::<><><>0<>0<><>::uid://f477vrqx88c2::::res://Scrips/cangrejo.gd<>uid://bq2243kyauts0::::res://sprite animados/cangrejo de manglar walk64x64.png
 charco.tscn::PackedScene::5778522761777842308::1767753892::0::1::::<><><>0<>0<><>::uid://bcr3qbqqoukq3::::res://sprite animados/carco de petroleo 64x64.png
-::res://Scrips/::1769796785
+::res://Scrips/::1770358370
 camera_2d.gd::GDScript::6288044213292897587::1769624959::0::1::::<>Camera2D<><>0<>0<><>::
 cangrejo.gd::GDScript::412812392242444827::1769796785::0::1::::<>CharacterBody2D<><>0<>0<><>::
 killzone.gd::GDScript::1741529648668339891::1769796785::0::1::::<>Area2D<><>0<>0<><>::
 opciones.gd::GDScript::7711832631634993272::1769400277::0::1::::<>Control<><>0<>0<><>::
 pantalla.gd::GDScript::6605849742765085871::1769432532::0::1::::<>Control<><>0<>0<><>::
 Personaje.gd::GDScript::3432916075354015228::1769623463::0::1::::<>CharacterBody2D<><>0<>0<><>::
-::res://sprite animados/::1770341452
+::res://sprite animados/::1770358370
 cangrejo de manglar walk64x64.png::CompressedTexture2D::3566873015282276713::1767747823::1767747823::1::::<><><>0<>0<>6783053b7ef1611d7674f350ce074352<>res://.godot/imported/cangrejo de manglar walk64x64.png-2f3d134a8afc2c938a57a11c56909c4a.ctex::
 carco de petroleo 64x64.png::CompressedTexture2D::2563621519274815844::1767753695::1767753695::1::::<><><>0<>0<>7fd89d453958f9041c0984a19adf08eb<>res://.godot/imported/carco de petroleo 64x64.png-53dc36da1df8f014705c51a71bdb84e8.ctex::
 CUNAGUARO.png::CompressedTexture2D::6768737151336347631::1769998349::1769402005::1::::<><><>0<>0<>6b62235a502385846c0a4b93a9755683<>res://.godot/imported/CUNAGUARO.png-c19cc22d8094ccd8b1fce26bdcb26a4a.ctex::
-::res://Tiles/::1769573665
+::res://Terrain/::1770358370
+::res://Tiles/::1769804653
 tilemap.png::CompressedTexture2D::8669766103818259958::1766463831::1766463831::1::::<><><>0<>0<>2bae9dc3b8a236a0509e31dd02539bfe<>res://.godot/imported/tilemap.png-5c2b08624280d7048de2cee6d34e97b8.ctex::
 tile_0000.png::CompressedTexture2D::5184554002731157187::1766463664::1766463667::1::::<><><>0<>0<>28bae544f859176725b9ef9ac4739074<>res://.godot/imported/tile_0000.png-21f0d8b70cc009b9193bcf4595ca892f.ctex::
 tile_0001.png::CompressedTexture2D::816645015863413406::1766463664::1766463667::1::::<><><>0<>0<>ab7b2b14ca427942344e5b3b8c0c7c83<>res://.godot/imported/tile_0001.png-83b1dcc86b4731a4ee5e9f78b966fda8.ctex::
@@ -240,7 +241,7 @@ tile_0176.png::CompressedTexture2D::8009288942149884903::1766463666::1766463667:
 tile_0177.png::CompressedTexture2D::1727375139474562847::1766463666::1766463667::1::::<><><>0<>0<>13bb1a059dc50476891758b22db025b1<>res://.godot/imported/tile_0177.png-89540813795dd0c33745029d42223131.ctex::
 tile_0178.png::CompressedTexture2D::6482965223413123638::1766463666::1766463667::1::::<><><>0<>0<>659f93bda4db24a24ab0c17a28b20bdd<>res://.godot/imported/tile_0178.png-09caf0eb191cd5c92c84dd31e67644b9.ctex::
 tile_0179.png::CompressedTexture2D::109774905394531448::1766463666::1766463667::1::::<><><>0<>0<>0503c10748f66f6113c807c5ea94ce77<>res://.godot/imported/tile_0179.png-af7e8e946d57a21cce9508a6a8e766f8.ctex::
-::res://Tiles/Backgrounds/::1769573665
+::res://Tiles/Backgrounds/::1769804653
 tile_0000.png::CompressedTexture2D::95079100318449636::1766463664::1766463667::1::::<><><>0<>0<>89115c4e30928f5850dcddc488ba40ad<>res://.godot/imported/tile_0000.png-a66ba2d75f33252885685c29e19a22e9.ctex::
 tile_0001.png::CompressedTexture2D::5462368515631920725::1766463664::1766463667::1::::<><><>0<>0<>55371c23041a03570ad684298305898e<>res://.godot/imported/tile_0001.png-06b2a04eb64c57bd054fff07bcd75981.ctex::
 tile_0002.png::CompressedTexture2D::6749378996195438190::1766463664::1766463667::1::::<><><>0<>0<>bdb098f096da046b1ab5cfb4fa0e02b2<>res://.godot/imported/tile_0002.png-17a239a40a2f01d4b4e9938e8d4778c9.ctex::
@@ -265,7 +266,7 @@ tile_0020.png::CompressedTexture2D::7551417712371459998::1766463664::1766463667:
 tile_0021.png::CompressedTexture2D::1046155667024246974::1766463664::1766463667::1::::<><><>0<>0<>7a40c5e925da98311afc83cc207612df<>res://.godot/imported/tile_0021.png-6f7d583e32bbe9bda5f572d86d8c9fc2.ctex::
 tile_0022.png::CompressedTexture2D::3378467602973964488::1766463664::1766463667::1::::<><><>0<>0<>d0f6301b8011730fb838ed3849fa4238<>res://.godot/imported/tile_0022.png-f51506491cf5186d74241a8445e5ea91.ctex::
 tile_0023.png::CompressedTexture2D::8484035225147248213::1766463664::1766463667::1::::<><><>0<>0<>7e08edfd3a22d50b7f6853d17d46f920<>res://.godot/imported/tile_0023.png-0c0036b449f5e7ddba9d16b363e6f6e9.ctex::
-::res://Tiles/Characters/::1769573665
+::res://Tiles/Characters/::1769804653
 tile_0000.png::CompressedTexture2D::8632577010865601498::1766463664::1766463667::1::::<><><>0<>0<>0a8c60748a3a73f95bbc4133e48eb718<>res://.godot/imported/tile_0000.png-addec780c5b5829f27210e7d6fbf955b.ctex::
 tile_0001.png::CompressedTexture2D::2067756668071592036::1766463664::1766463667::1::::<><><>0<>0<>1ba5b873c5caa41772e5b99d1ebf2f59<>res://.godot/imported/tile_0001.png-37635aeab6036fce48d7b9f357faa193.ctex::
 tile_0002.png::CompressedTexture2D::435688950865998500::1766463664::1766463667::1::::<><><>0<>0<>ee969c36d82ff794e50db21f6b237a65<>res://.godot/imported/tile_0002.png-0ffe59f4a87bf228b5f8ab66276eda15.ctex::
