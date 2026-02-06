@@ -1,2 +1,9 @@
 res://Scrips/Personaje.gd
 res://mapa.tscn
+res://perla.gd
+res://empanada.gd
+res://Barra_de_datos.gd
+res://Numero_de_empanadas.gd
+res://Numero_de_perlas.gd
+res://escenas/empanada.tscn
+res://escenas/perla.tscn

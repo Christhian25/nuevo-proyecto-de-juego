@@ -1,4 +1,4 @@
-[gd_scene load_steps=61 format=4 uid="uid://dkrfbggccg5r7"]
+[gd_scene load_steps=66 format=4 uid="uid://dkrfbggccg5r7"]
 
 [ext_resource type="Texture2D" uid="uid://dgfgb013uinl6" path="res://fondos/cielo.png" id="1_8ahop"]
 [ext_resource type="Texture2D" uid="uid://cdcdtsvoaleyy" path="res://fondos/pueblo3-Sheet.png" id="2_a04ho"]
@@ -26,6 +26,11 @@
 [ext_resource type="Texture2D" uid="uid://cqeu3ea02j6xb" path="res://Tiles/tile_0143.png" id="22_p4jw8"]
 [ext_resource type="PackedScene" uid="uid://ldt20npghn0n" path="res://juego/cangrejo.tscn" id="25_vq8sh"]
 [ext_resource type="PackedScene" uid="uid://b54fiaetk82d1" path="res://escenas/personaje.tscn" id="26_xxtyk"]
+[ext_resource type="PackedScene" uid="uid://yp2yv7ude0wp" path="res://escenas/empanada.tscn" id="27_siwtc"]
+[ext_resource type="PackedScene" uid="uid://gat5icwy1k0q" path="res://escenas/perla.tscn" id="28_c0hg7"]
+[ext_resource type="Script" uid="uid://c7ve38x77v03h" path="res://Barra_de_datos.gd" id="29_um40f"]
+[ext_resource type="Texture2D" uid="uid://41g4gbjm1jdr" path="res://sprite animados/corazon.png" id="30_ppa31"]
+[ext_resource type="Texture2D" uid="uid://ct07x1g4cklwi" path="res://sprite animados/perla.png" id="31_hmtrj"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_a04ho"]
 
@@ -256,6 +261,7 @@ motion_scale = Vector2(2.725, 1.84)
 motion_mirroring = Vector2(200, 200)
 
 [node name="Cielo" type="Sprite2D" parent="Fondo/ParallaxLayer"]
+position = Vector2(-3.9999998, 0)
 scale = Vector2(2.725, 1.8400004)
 texture = ExtResource("1_8ahop")
 centered = false
@@ -321,5 +327,68 @@ script = ExtResource("3_xxtyk")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(659, 427.75)
 shape = SubResource("RectangleShape2D_vq8sh")
+
+[node name="objetos" type="Node2D" parent="."]
+
+[node name="empanada" parent="objetos" instance=ExtResource("27_siwtc")]
+position = Vector2(206.00002, 189)
+scale = Vector2(0.24, 0.25)
+
+[node name="empanada2" parent="objetos" instance=ExtResource("27_siwtc")]
+position = Vector2(148, 222)
+scale = Vector2(0.26380005, 0.30499998)
+
+[node name="perla" parent="objetos" instance=ExtResource("28_c0hg7")]
+position = Vector2(284.00003, 116)
+scale = Vector2(0.25510204, 0.28125)
+
+[node name="perla2" parent="objetos" instance=ExtResource("28_c0hg7")]
+position = Vector2(396, 204)
+scale = Vector2(0.29743797, 0.32831728)
+
+[node name="perla3" parent="objetos" instance=ExtResource("28_c0hg7")]
+position = Vector2(273, 223)
+scale = Vector2(0.27545786, 0.30387372)
+
+[node name="Barra_de_datos" type="Node2D" parent="."]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="Barra_de_datos"]
+script = ExtResource("29_um40f")
+
+[node name="ColorRect" type="ColorRect" parent="Barra_de_datos/CanvasLayer"]
+offset_left = -1.0
+offset_top = 298.0
+offset_right = 500.0
+offset_bottom = 320.0
+color = Color(0.30588236, 1, 0.4117647, 1)
+
+[node name="Sprite2D" type="Sprite2D" parent="Barra_de_datos/CanvasLayer"]
+position = Vector2(14, 307.99997)
+scale = Vector2(0.31887755, 0.2812498)
+texture = ExtResource("30_ppa31")
+
+[node name="conteo_corazon" type="Label" parent="Barra_de_datos/CanvasLayer"]
+offset_left = 34.0
+offset_top = 298.0
+offset_right = 74.0
+offset_bottom = 347.0
+scale = Vector2(0.8, 0.8)
+text = "0
+"
+
+[node name="Sprite2D2" type="Sprite2D" parent="Barra_de_datos/CanvasLayer"]
+position = Vector2(475.00003, 311)
+scale = Vector2(0.40816328, 0.4062503)
+texture = ExtResource("31_hmtrj")
+
+[node name="conteo_perlas" type="Label" parent="Barra_de_datos/CanvasLayer"]
+offset_left = 486.0
+offset_top = 300.0
+offset_right = 526.0
+offset_bottom = 349.0
+scale = Vector2(0.8, 0.8)
+size_flags_horizontal = 3
+text = "0"
+metadata/_edit_use_anchors_ = true
 
 [connection signal="area_entered" from="Area2D" to="Area2D" method="_on_area_entered"]
