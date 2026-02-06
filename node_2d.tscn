@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bb2g254uddw4r"]
-
-[ext_resource type="PackedScene" uid="uid://dgcefxkpgetee" path="res://Escenas/barra_de_datos.tscn" id="1_wtcfe"]
-
-[node name="Barra" type="Node2D"]
-
-[node name="Barra_de_datos" parent="." instance=ExtResource("1_wtcfe")]

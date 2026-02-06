@@ -4,8 +4,6 @@ var  speed = 120
 var gravedad = 15
 var jump = -370
 
-func _ready() -> void:
-	$AnimatedSprite2D.play("attack")
 
 func _physics_process(delta: float) -> void:
 	# 1. Gravedad (Siempre se aplica)
