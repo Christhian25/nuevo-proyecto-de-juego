@@ -277,7 +277,7 @@ tile_set = SubResource("TileSet_mxg1m")
 [node name="enemigos" type="Node2D" parent="."]
 
 [node name="cangrejo" parent="enemigos" instance=ExtResource("25_vq8sh")]
-position = Vector2(627, -240.00002)
+position = Vector2(785.00006, -221)
 scale = Vector2(1.1199951, 1.24)
 
 [node name="cangrejo2" parent="enemigos" instance=ExtResource("25_vq8sh")]
