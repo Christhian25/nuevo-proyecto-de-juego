@@ -22,8 +22,8 @@ NumeroDeEmpanadas="*res://Numero_de_empanadas.gd"
 
 [display]
 
-window/size/viewport_width=500
-window/size/viewport_height=320
+window/size/viewport_width=320
+window/size/viewport_height=240
 window/size/window_width_override=1280
 window/size/window_height_override=540
 window/stretch/mode="canvas_items"

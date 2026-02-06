@@ -94,11 +94,12 @@ centered = false
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource("7_vspls")
+volume_db = 19.0
 autoplay = true
 
 [connection signal="pressed" from="VBoxContainer/Volume" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Volume" to="." method="_on_volume_pressed"]
 [connection signal="pressed" from="VBoxContainer/Resolution" to="." method="_on_opcion_pressed"]
 [connection signal="pressed" from="VBoxContainer/Resolution" to="." method="_on_resolution_pressed"]
-[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_back_pressed"]
 [connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="VBoxContainer/Back" to="." method="_on_back_pressed"]
