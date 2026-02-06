@@ -1,3 +1,6 @@
+AudioStreamPlayer2D
+AudioStreamPlayer
+HSlider
 CollisionShape2D
 StaticBody2D
 ParallaxLayer
@@ -10,5 +13,3 @@ Label
 ProgressBar
 CanvasLayer
 Node2D
-Camera2D
-Node
