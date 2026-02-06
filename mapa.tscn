@@ -246,7 +246,7 @@ size = Vector2(18, 24)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_vq8sh"]
 size = Vector2(1317.5, 23.5)
 
-[node name="JUEGO" type="Node2D"]
+[node name="Juego" type="Node2D"]
 
 [node name="Fondo" type="ParallaxBackground" parent="."]
 
