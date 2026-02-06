@@ -1,0 +1,51 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1es16iv7ucq5"]
+
+[ext_resource type="Texture2D" uid="uid://cxu6hgq5jse15" path="res://fondos/Sky.png" id="1_l5324"]
+[ext_resource type="Texture2D" uid="uid://dss47njycirp1" path="res://fondos/nube.png" id="2_ytsh8"]
+
+[node name="fondo" type="ParallaxBackground"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(160, 0)
+
+[node name="Sky" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(-2, 111)
+texture = ExtResource("1_l5324")
+centered = false
+
+[node name="Sky2" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(160, 111)
+texture = ExtResource("1_l5324")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(160, 0)
+
+[node name="Nube" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(18, 123)
+scale = Vector2(0.2, 0.2)
+texture = ExtResource("2_ytsh8")
+centered = false
+
+[node name="Nube2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(51, 175)
+scale = Vector2(0.26, 0.205)
+texture = ExtResource("2_ytsh8")
+centered = false
+
+[node name="Nube3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(128, 171)
+scale = Vector2(0.26, 0.205)
+texture = ExtResource("2_ytsh8")
+centered = false
+
+[node name="Nube4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(95, 133)
+scale = Vector2(0.3, 0.21249999)
+texture = ExtResource("2_ytsh8")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+visible = false
