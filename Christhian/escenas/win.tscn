@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://bot177ft1vah0"]
+
+[ext_resource type="Script" uid="uid://ewlvuympeedb" path="res://Christhian/Scrips/ganar.gd" id="1_3h7xo"]
+
+[node name="Ganaste" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3h7xo")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.2627451, 0.70980394, 0.5019608, 0.5764706)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -77.0
+offset_top = -77.0
+offset_right = 68.0
+offset_bottom = -33.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 31
+text = "Ganaste!!"
+
+[node name="Quit" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 101.0
+offset_top = -4.0
+offset_right = -122.0
+offset_bottom = 31.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Salir"
+
+[connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]

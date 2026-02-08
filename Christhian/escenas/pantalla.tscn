@@ -1,0 +1,106 @@
+[gd_scene load_steps=8 format=3 uid="uid://bv13rslfx58l1"]
+
+[ext_resource type="Script" uid="uid://c1d6m6o5ijrgx" path="res://Christhian/Scrips/pantalla.gd" id="1_jja7c"]
+[ext_resource type="Script" uid="uid://ddwajw3lm3xh1" path="res://Christhian/Scrips/parallax_background_Menu.gd" id="2_1tf21"]
+[ext_resource type="Texture2D" uid="uid://dtwb6fiy45pnp" path="res://Christhian/fondo menu de inicio/cielo.png" id="3_4xfbf"]
+[ext_resource type="Texture2D" uid="uid://cdig7lo7i4fis" path="res://Christhian/fondo menu de inicio/near-clouds.png" id="4_se5wl"]
+[ext_resource type="Texture2D" uid="uid://ns6pw235eqw4" path="res://Christhian/fondo menu de inicio/montanas y salto el angel.png" id="5_4qj4a"]
+[ext_resource type="Texture2D" uid="uid://cmbgwhd6gv3kk" path="res://Christhian/fondo menu de inicio/playa y llano.png" id="6_wstfg"]
+[ext_resource type="AudioStream" uid="uid://bxknqaohvtp55" path="res://Christhian/musica/AUD-20260204-WA0043.wav" id="7_f3m0g"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jja7c")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -89.0
+offset_top = -49.0
+offset_right = 54.0
+offset_bottom = 77.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Play" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Jugar"
+
+[node name="Option" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Opcion
+"
+
+[node name="Quit" type="Button" parent="VBoxContainer"]
+layout_mode = 2
+text = "Salir"
+
+[node name="Node2D" type="Node2D" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Node2D"]
+script = ExtResource("2_1tf21")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(360, 0)
+
+[node name="Cielo" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+texture = ExtResource("3_4xfbf")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(288, 0)
+
+[node name="NearClouds" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+texture = ExtResource("4_se5wl")
+centered = false
+
+[node name="NearClouds2" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+position = Vector2(144, 0)
+texture = ExtResource("4_se5wl")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(320, 0)
+
+[node name="MontanasYSaltoElAngel" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+texture = ExtResource("5_4qj4a")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="Node2D/ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.9, 0.9)
+motion_mirroring = Vector2(320, 0)
+
+[node name="PlayaYLlano" type="Sprite2D" parent="Node2D/ParallaxBackground/ParallaxLayer4"]
+texture_filter = 1
+texture = ExtResource("6_wstfg")
+centered = false
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("7_f3m0g")
+volume_db = 19.0
+autoplay = true
+
+[connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
+[connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_opcion_pressed"]
+[connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_option_pressed"]
+[connection signal="pressed" from="VBoxContainer/Quit" to="." method="_on_quit_pressed"]

@@ -1,0 +1,69 @@
+[gd_scene load_steps=2 format=3 uid="uid://b88iwemwjt1mf"]
+
+[ext_resource type="Script" uid="uid://bkqn4rm63xvj6" path="res://Christhian/Scrips/game_over.gd" id="1_vhh3v"]
+
+[node name="Game Over" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vhh3v")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.7882353, 0.1254902, 0.16862746, 0.38039216)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -94.5
+offset_top = -78.5
+offset_right = 73.5
+offset_bottom = -34.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_font_sizes/font_size = 31
+text = "Game Over"
+
+[node name="Retry" type="Button" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 101.0
+offset_top = -15.0
+offset_right = -122.0
+offset_bottom = 16.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Reintentar
+"
+
+[node name="Quit" type="Button" parent="ColorRect"]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 101.0
+offset_top = 22.0
+offset_right = -122.0
+offset_bottom = 53.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Salir"
+
+[connection signal="pressed" from="ColorRect/Retry" to="." method="_on_retry_pressed"]
+[connection signal="pressed" from="ColorRect/Quit" to="." method="_on_quit_pressed"]

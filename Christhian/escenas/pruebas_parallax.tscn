@@ -1,0 +1,69 @@
+[gd_scene load_steps=6 format=3 uid="uid://xx4gbvbfmxkl"]
+
+[ext_resource type="Script" path="res://Scrips_parallax_background.gd" id="1_l07ml"]
+[ext_resource type="Texture2D" uid="uid://cxu6hgq5jse15" path="res://Christhian/fondos/Sky.png" id="2_6gvx2"]
+[ext_resource type="Texture2D" uid="uid://xghcib7wc0cl" path="res://Christhian/fondos/far-mountain2s-Sheet.png" id="3_o0hdl"]
+[ext_resource type="Texture2D" uid="uid://dl4bm8a31jvca" path="res://Christhian/fondos/near-cloud2s-Sheet.png" id="3_xkjt0"]
+[ext_resource type="Texture2D" uid="uid://c06r5ega6p38p" path="res://Christhian/fondos/Pueblot2-Sheet.png" id="5_6gvx2"]
+
+[node name="PruebasParallax" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+script = ExtResource("1_l07ml")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.1, 0.1)
+motion_mirroring = Vector2(320, 0)
+
+[node name="Solt" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+texture = ExtResource("2_6gvx2")
+centered = false
+
+[node name="Solt2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+position = Vector2(160, 0)
+texture = ExtResource("2_6gvx2")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(288, 0)
+
+[node name="NearCloud2sSheet" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+texture = ExtResource("3_xkjt0")
+centered = false
+
+[node name="NearCloud2sSheet2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+position = Vector2(144, 0)
+texture = ExtResource("3_xkjt0")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_mirroring = Vector2(320, 0)
+
+[node name="FarMountain2sSheet" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+texture = ExtResource("3_o0hdl")
+centered = false
+
+[node name="FarMountain2sSheet2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+position = Vector2(160, 0)
+texture = ExtResource("3_o0hdl")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(1.5, 1.5)
+motion_mirroring = Vector2(320, 0)
+
+[node name="Pueblot2Sheet" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+texture_filter = 1
+texture = ExtResource("5_6gvx2")
+centered = false
