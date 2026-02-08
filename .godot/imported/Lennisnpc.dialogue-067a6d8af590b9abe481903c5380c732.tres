@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_wkinq"]
+
+[resource]
+script = ExtResource("1_wkinq")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Lennis", "Viviana")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "Lennis",
+&"id": "1",
+&"next_id": "2",
+&"text": "¿Qué ocurrió en la Casa Fuerte de Barcelona?",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"next_id": "3",
+&"responses": PackedStringArray("2", "4", "6"),
+&"text": "A. Sirvió como la primera universidad del oriente venezolano fundada por los franciscanos.",
+&"type": "response"
+},
+"3": {
+&"character": "Viviana",
+&"id": "3",
+&"next_id": "8",
+&"text": "Sera para la proxima.",
+&"type": "dialogue"
+},
+"4": {
+&"id": "4",
+&"next_id": "5",
+&"text": "B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.",
+&"type": "response"
+},
+"5": {
+&"character": "Viviana",
+&"id": "5",
+&"next_id": "8",
+&"text": "El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"text": "C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.",
+&"type": "response"
+},
+"7": {
+&"character": "Viviana",
+&"id": "7",
+&"next_id": "8",
+&"text": "En Hora Buena!",
+&"type": "dialogue"
+},
+"8": {
+&"id": "8",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"9": {
+&"id": "9",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+}
+}
+raw_text = "~ start
+Lennis: ¿Qué ocurrió en la Casa Fuerte de Barcelona?
+- A. Sirvió como la primera universidad del oriente venezolano fundada por los franciscanos.
+	Viviana: Sera para la proxima.
+- B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.
+	Viviana: El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.
+- C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.
+	Viviana: En Hora Buena!
+=> END"
+metadata/dialogue_manager_version = "3.10.0"

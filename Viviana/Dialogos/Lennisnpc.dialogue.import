@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://d0b8jjmffym4d"
+path="res://.godot/imported/Lennisnpc.dialogue-067a6d8af590b9abe481903c5380c732.tres"
+
+[deps]
+
+source_file="res://Viviana/Dialogos/Lennisnpc.dialogue"
+dest_files=["res://.godot/imported/Lennisnpc.dialogue-067a6d8af590b9abe481903c5380c732.tres"]
+
+[params]
+
+defaults=true

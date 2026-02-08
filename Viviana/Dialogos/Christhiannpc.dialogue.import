@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://r2s0112wc27j"
+path="res://.godot/imported/Christhiannpc.dialogue-d6c705f298dff8942b439919f439ebb3.tres"
+
+[deps]
+
+source_file="res://Viviana/Dialogos/Christhiannpc.dialogue"
+dest_files=["res://.godot/imported/Christhiannpc.dialogue-d6c705f298dff8942b439919f439ebb3.tres"]
+
+[params]
+
+defaults=true

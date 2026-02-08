@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c0ehuxfg3wi1l"
+path="res://.godot/imported/Javiernpc.dialogue-738758d9b8613894f53975a5d593205e.tres"
+
+[deps]
+
+source_file="res://Viviana/Dialogos/Javiernpc.dialogue"
+dest_files=["res://.godot/imported/Javiernpc.dialogue-738758d9b8613894f53975a5d593205e.tres"]
+
+[params]
+
+defaults=true

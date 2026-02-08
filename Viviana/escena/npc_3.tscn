@@ -1,0 +1,25 @@
+[gd_scene load_steps=5 format=3 uid="uid://cunasiv6cr0r1"]
+
+[ext_resource type="Script" uid="uid://dox3i3j2jgjwb" path="res://Viviana/scrips/npc_3.gd" id="1_tionn"]
+[ext_resource type="Texture2D" uid="uid://ckajs877y41fx" path="res://Viviana/Npc/npc3.png" id="2_nly1v"]
+[ext_resource type="Texture2D" uid="uid://kec1txwgjv28" path="res://Viviana/Npc/dialog_interactable.png" id="3_bx7yq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qjq4u"]
+size = Vector2(52, 32)
+
+[node name="npc3" type="Area2D"]
+script = ExtResource("1_tionn")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_nly1v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_qjq4u")
+
+[node name="ExclamationMark3" type="Sprite2D" parent="."]
+position = Vector2(1, -18)
+texture = ExtResource("3_bx7yq")
+hframes = 2
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

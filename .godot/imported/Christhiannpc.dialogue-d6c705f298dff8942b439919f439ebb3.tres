@@ -1,0 +1,143 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_emrbx"]
+
+[resource]
+script = ExtResource("1_emrbx")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Christhian")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "Christhian:......",
+&"type": "dialogue"
+},
+"2": {
+&"character": "Christhian",
+&"id": "2",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "Cuajado de Pescado: Pastel tipo tortilla hecho con pescado desmenuzado, huevo, plátano frito y papas. Es el plato rey en Semana Santa.",
+&"type": "dialogue"
+},
+"3": {
+&"character": "Christhian",
+&"id": "3",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "Fosforera: Una sopa de mariscos muy concentrada a la que se le atribuyen propiedades \"levanta muertos\" o afrodisíacas.",
+&"type": "dialogue"
+},
+"4": {
+&"character": "Christhian",
+&"id": "4",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "Dulcería: Destacan el Majarete (pudin de coco y maíz), el dulce de merey y el arroz con coco.",
+&"type": "dialogue"
+},
+"5": {
+&"character": "Christhian",
+&"id": "5",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "En Barcelona se encuentran las ruinas de la Casa Fuerte, un antiguo convento que fue escenario de uno de los episodios más cruentos de la guerra de independencia en 1817.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"7": {
+&"id": "7",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+}
+}
+raw_text = "~ start
+Christhian:......
+% Christhian: Cuajado de Pescado: Pastel tipo tortilla hecho con pescado desmenuzado, huevo, plátano frito y papas. Es el plato rey en Semana Santa.
+% Christhian: Fosforera: Una sopa de mariscos muy concentrada a la que se le atribuyen propiedades \"levanta muertos\" o afrodisíacas.
+% Christhian: Dulcería: Destacan el Majarete (pudin de coco y maíz), el dulce de merey y el arroz con coco.
+% Christhian: En Barcelona se encuentran las ruinas de la Casa Fuerte, un antiguo convento que fue escenario de uno de los episodios más cruentos de la guerra de independencia en 1817.
+=> END"
+metadata/dialogue_manager_version = "3.10.0"

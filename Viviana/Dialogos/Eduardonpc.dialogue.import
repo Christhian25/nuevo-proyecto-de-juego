@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dlha46f2wr3sc"
+path="res://.godot/imported/Eduardonpc.dialogue-14a4ddee4dacd7608e1a26a2aabeba93.tres"
+
+[deps]
+
+source_file="res://Viviana/Dialogos/Eduardonpc.dialogue"
+dest_files=["res://.godot/imported/Eduardonpc.dialogue-14a4ddee4dacd7608e1a26a2aabeba93.tres"]
+
+[params]
+
+defaults=true

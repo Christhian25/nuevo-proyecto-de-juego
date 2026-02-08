@@ -1,0 +1,64 @@
+[gd_scene load_steps=10 format=3 uid="uid://c7oqgbggeq31r"]
+
+[ext_resource type="Script" uid="uid://h5hew0pnoifq" path="res://Viviana/scrips/npc_1.gd" id="1_7n3hg"]
+[ext_resource type="Texture2D" uid="uid://bbglgjdy42r42" path="res://Viviana/Npc/16x32 Idle-Sheet.png" id="2_bk3es"]
+[ext_resource type="Texture2D" uid="uid://kec1txwgjv28" path="res://Viviana/Npc/dialog_interactable.png" id="3_1cubv"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7n3hg"]
+atlas = ExtResource("2_bk3es")
+region = Rect2(0, 0, 16, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bk3es"]
+atlas = ExtResource("2_bk3es")
+region = Rect2(16, 0, 16, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1cubv"]
+atlas = ExtResource("2_bk3es")
+region = Rect2(32, 0, 16, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gu5mg"]
+atlas = ExtResource("2_bk3es")
+region = Rect2(48, 0, 16, 37)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5qh33"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7n3hg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bk3es")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1cubv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gu5mg")
+}],
+"loop": true,
+"name": &"default",
+"speed": 2.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gu5mg"]
+size = Vector2(38, 28)
+
+[node name="Npc1" type="Area2D"]
+script = ExtResource("1_7n3hg")
+
+[node name="Sprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 4)
+sprite_frames = SubResource("SpriteFrames_5qh33")
+autoplay = "default"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4)
+shape = SubResource("RectangleShape2D_gu5mg")
+
+[node name="ExclamationMark" type="Sprite2D" parent="."]
+position = Vector2(1, -19)
+texture = ExtResource("3_1cubv")
+hframes = 2
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]

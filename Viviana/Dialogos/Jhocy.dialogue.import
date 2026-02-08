@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dvv5p4aj85rb3"
+path="res://.godot/imported/Jhocy.dialogue-40cb353a44499acacdb33636ed4bd891.tres"
+
+[deps]
+
+source_file="res://Viviana/Dialogos/Jhocy.dialogue"
+dest_files=["res://.godot/imported/Jhocy.dialogue-40cb353a44499acacdb33636ed4bd891.tres"]
+
+[params]
+
+defaults=true

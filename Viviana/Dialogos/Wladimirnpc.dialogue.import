@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bmhx521563hs6"
+path="res://.godot/imported/Wladimirnpc.dialogue-5deff53897248894376bee7cb704f0f8.tres"
+
+[deps]
+
+source_file="res://Viviana/Dialogos/Wladimirnpc.dialogue"
+dest_files=["res://.godot/imported/Wladimirnpc.dialogue-5deff53897248894376bee7cb704f0f8.tres"]
+
+[params]
+
+defaults=true

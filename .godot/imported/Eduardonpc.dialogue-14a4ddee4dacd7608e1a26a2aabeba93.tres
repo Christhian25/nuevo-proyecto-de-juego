@@ -1,0 +1,90 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_o6t7c"]
+
+[resource]
+script = ExtResource("1_o6t7c")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Eduardo")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "Eduardo",
+&"id": "1",
+&"next_id": "2",
+&"text": "¿Quién es la Patrona de Anzoátegui y dónde se celebra?",
+&"type": "dialogue"
+},
+"2": {
+&"id": "2",
+&"next_id": "3",
+&"responses": PackedStringArray("2", "4", "6"),
+&"text": "A. Santa Rosa de Lima, celebrada en las zonas rurales de Anaco.",
+&"type": "response"
+},
+"3": {
+&"character": "Eduardo",
+&"id": "3",
+&"next_id": "8",
+&"text": "Sera para la proxima.",
+&"type": "dialogue"
+},
+"4": {
+&"id": "4",
+&"next_id": "5",
+&"text": "B. La Virgen de la Candelaria, celebrada principalmente en la ciudad de Cantaura.",
+&"type": "response"
+},
+"5": {
+&"character": "Eduardo",
+&"id": "5",
+&"next_id": "8",
+&"text": "En Hora Buena!En 1992 fue declarada oficialmente Patrona del Estado Anzoátegui.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"text": "C. La Virgen del Valle, celebrada en el Paseo Colón de Puerto La Cruz.",
+&"type": "response"
+},
+"7": {
+&"character": "Eduardo",
+&"id": "7",
+&"next_id": "8",
+&"text": "Sera para la proxima.",
+&"type": "dialogue"
+},
+"8": {
+&"id": "8",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"9": {
+&"id": "9",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+}
+}
+raw_text = "~ start
+Eduardo: ¿Quién es la Patrona de Anzoátegui y dónde se celebra?
+- A. Santa Rosa de Lima, celebrada en las zonas rurales de Anaco.
+	Eduardo: Sera para la proxima.
+- B. La Virgen de la Candelaria, celebrada principalmente en la ciudad de Cantaura.
+	Eduardo: En Hora Buena!En 1992 fue declarada oficialmente Patrona del Estado Anzoátegui.
+- C. La Virgen del Valle, celebrada en el Paseo Colón de Puerto La Cruz.
+	Eduardo: Sera para la proxima.
+=> END"
+metadata/dialogue_manager_version = "3.10.0"

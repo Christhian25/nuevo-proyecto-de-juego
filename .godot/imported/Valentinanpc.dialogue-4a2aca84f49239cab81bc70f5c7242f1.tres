@@ -1,0 +1,144 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_ciqye"]
+
+[resource]
+script = ExtResource("1_ciqye")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Valentina")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "Valentina",
+&"id": "1",
+&"next_id": "2",
+&"text": "Hola!! Bienvenido al Esatdo Ansuategui.",
+&"type": "dialogue"
+},
+"2": {
+&"character": "Valentina",
+&"id": "2",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "La melodia que estas escuchando fue compuesta por Jose Aguirre como un Homenage al esatado.",
+&"type": "dialogue"
+},
+"3": {
+&"character": "Valentina",
+&"id": "3",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "Debe su nombre al General José Antonio Anzoátegui, héroe de la Independencia. Curiosamente, su apellido es de origen vasco y significa \"lugar de saúcos\".",
+&"type": "dialogue"
+},
+"4": {
+&"character": "Valentina",
+&"id": "4",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "En la ciudad de El Tigre, se encuentra la [wave]bandera[/wave] pintada más grande de Venezuela, plasmada sobre unos antiguos silos de maní.",
+&"type": "dialogue"
+},
+"5": {
+&"character": "Valentina",
+&"id": "5",
+&"next_id": "6",
+&"siblings": Array[Dictionary]([{
+&"condition": {},
+&"id": "2",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "3",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "4",
+&"weight": 1.0
+}, {
+&"condition": {},
+&"id": "5",
+&"weight": 1.0
+}]),
+&"text": "Danza del Sebucán: Los bailarines tejen y destejen cintas de colores alrededor de un palo central.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"7": {
+&"id": "7",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+}
+}
+raw_text = "~ start
+Valentina: Hola!! Bienvenido al Esatdo Ansuategui.
+% Valentina: La melodia que estas escuchando fue compuesta por Jose Aguirre como un Homenage al esatado. 
+% Valentina: Debe su nombre al General José Antonio Anzoátegui, héroe de la Independencia. Curiosamente, su apellido es de origen vasco y significa \"lugar de saúcos\".
+% Valentina: En la ciudad de El Tigre, se encuentra la [wave]bandera[/wave] pintada más grande de Venezuela, plasmada sobre unos antiguos silos de maní.
+% Valentina: Danza del Sebucán: Los bailarines tejen y destejen cintas de colores alrededor de un palo central.
+=> END"
+metadata/dialogue_manager_version = "3.10.0"
