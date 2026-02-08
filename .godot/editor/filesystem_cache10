@@ -1,8 +1,5 @@
 f098f8d3115d962055284dee314b4f89
-::res://::1770576154
-area_2d.gd::GDScript::1514873576989093204::1770570008::0::1::::<>Area2D<><>0<>0<><>::
-npc_6.gd::GDScript::3723964937975195005::1770576154::0::1::::<>Area2D<><>0<>0<><>::
-sprite_2d_2.gd::GDScript::7426093453892894260::1770568840::0::1::::<>Sprite2D<><>0<>0<><>::
+::res://::1770577120
 ::res://addons/::1770563774
 ::res://addons/dialogue_manager/::1770563776
 constants.gd::GDScript::4240262336831424009::1770563775::0::1::::DMConstants<>RefCounted<><>0<>0<><>::
@@ -386,28 +383,28 @@ tile_0023.png::CompressedTexture2D::9151660042155849675::1770563353::1770563444:
 tile_0024.png::CompressedTexture2D::5734692786869921760::1770563353::1770563444::1::::<><><>0<>0<>357e118d9e9ca5d19b9d3a0285c400d9<>res://.godot/imported/tile_0024.png-df74cb592772e856931ac913fec02f9c.ctex::
 tile_0025.png::CompressedTexture2D::192815640864308202::1770563353::1770563444::1::::<><><>0<>0<>48caa5d841fb5a4556e06351e86dc3d0<>res://.godot/imported/tile_0025.png-bff2a016b9aa7057a79a4fcab172c772.ctex::
 tile_0026.png::CompressedTexture2D::9035668303644293935::1770563353::1770563444::1::::<><><>0<>0<>2685e3a16628c870ff23dd526c463ddc<>res://.godot/imported/tile_0026.png-5682b3a07c937e02f9bbae4d79e4a1bc.ctex::
-::res://Viviana/::1770564246
-::res://Viviana/Dialogos/::1770576451
+::res://Viviana/::1770577140
+::res://Viviana/Dialogos/::1770576717
 Christhiannpc.dialogue::Resource::1250087498951868549::1770570993::1770570994::1::::<><><>0<>0<>b37e858c172a7ab918cfb42e45733b51<>res://.godot/imported/Christhiannpc.dialogue-d6c705f298dff8942b439919f439ebb3.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
 Eduardonpc.dialogue::Resource::7945843400604053342::1770574077::1770574077::1::::<><><>0<>0<>5bfe62c31a5ac171d73d6cd36a86bc4b<>res://.godot/imported/Eduardonpc.dialogue-14a4ddee4dacd7608e1a26a2aabeba93.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
 Javiernpc.dialogue::Resource::6536281920252694159::1770574628::1770574628::1::::<><><>0<>0<>ceb2041144569f0d783ecfac0836d0ef<>res://.godot/imported/Javiernpc.dialogue-738758d9b8613894f53975a5d593205e.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
 Jhocy.dialogue::Resource::8678429520636176802::1770576717::1770576717::1::::<><><>0<>0<>0638784e0c6c585838cb37db85cdfeff<>res://.godot/imported/Jhocy.dialogue-40cb353a44499acacdb33636ed4bd891.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-Lennisnpc.dialogue::Resource::8918067744173231165::1770573309::1770573309::1::::<><><>0<>0<>2799ce34112a040945c62d84ab75e5f3<>res://.godot/imported/Lennisnpc.dialogue-067a6d8af590b9abe481903c5380c732.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+Lennisnpc.dialogue::Resource::8918067744173231165::1770580087::1770580087::1::::<><><>0<>0<>2799ce34112a040945c62d84ab75e5f3<>res://.godot/imported/Lennisnpc.dialogue-067a6d8af590b9abe481903c5380c732.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
 Valentinanpc.dialogue::Resource::7558973183807467369::1770570993::1770570994::1::::<><><>0<>0<>15755cae58326cec5715c2b79ce71993<>res://.godot/imported/Valentinanpc.dialogue-4a2aca84f49239cab81bc70f5c7242f1.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
-Viviananpcuntitled.dialogue::Resource::6952299921152645367::1770573051::1770573051::1::::<><><>0<>0<>5fe12ecf4316ab4479cf9b59dd0fa812<>res://.godot/imported/Viviananpcuntitled.dialogue-da2b0519da54632e0294db02299cc7a0.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
+Viviananpcuntitled.dialogue::Resource::6952299921152645367::1770580069::1770580069::1::::<><><>0<>0<>5fe12ecf4316ab4479cf9b59dd0fa812<>res://.godot/imported/Viviananpcuntitled.dialogue-da2b0519da54632e0294db02299cc7a0.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
 Wladimirnpc.dialogue::Resource::3244588975979650735::1770574077::1770574077::1::::<><><>0<>0<>a2e68ef09fcaeaedff7eaedc5fbc000a<>res://.godot/imported/Wladimirnpc.dialogue-5deff53897248894376bee7cb704f0f8.tres::uid://dbs4435dsf3ry::::res://addons/dialogue_manager/dialogue_resource.gd
 ::res://Viviana/Dialogos/dialogue/::1770569157
 balloon.gd::GDScript::3884900292038883578::1770569145::0::1::::<>CanvasLayer<><>0<>0<><>::
 balloon.tscn::PackedScene::5299397482347133778::1770569157::0::1::::<><><>0<>0<><>::uid://bvl40fxtdbsry::::res://Viviana/Dialogos/dialogue/balloon.gd<>uid://ckvgyvclnwggo::::res://addons/dialogue_manager/dialogue_label.tscn<>uid://bb52rsfwhkxbn::::res://addons/dialogue_manager/dialogue_responses_menu.gd
-::res://Viviana/escena/::1770576154
+::res://Viviana/escena/::1770576797
 npc_1.tscn::PackedScene::7048767901078564725::1770568086::0::1::::<><><>0<>0<><>::uid://h5hew0pnoifq::::res://Viviana/scrips/npc_1.gd<>uid://bbglgjdy42r42::::res://Viviana/Npc/16x32 Idle-Sheet.png<>uid://kec1txwgjv28::::res://Viviana/Npc/dialog_interactable.png
 npc_2.tscn::PackedScene::3154323465469111567::1770568699::0::1::::<><><>0<>0<><>::uid://r1bmnxwhtjhe::::res://Viviana/scrips/npc_2.gd<>uid://cm77ut11ytqv1::::res://Viviana/Npc/16x32 idle npct.png<>uid://kec1txwgjv28::::res://Viviana/Npc/dialog_interactable.png
 npc_3.tscn::PackedScene::6203487749279477384::1770569320::0::1::::<><><>0<>0<><>::uid://dox3i3j2jgjwb::::res://Viviana/scrips/npc_3.gd<>uid://ckajs877y41fx::::res://Viviana/Npc/npc3.png<>uid://kec1txwgjv28::::res://Viviana/Npc/dialog_interactable.png
-npc_4.tscn::PackedScene::3465269848351429404::1770570288::0::1::::<><><>0<>0<><>::uid://xanrcmq1if56::::res://Viviana/scrips/npc_4.gd<>uid://85c6kg1ubylr::::res://Viviana/Npc/pnc4.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
+npc_4.tscn::PackedScene::3465269848351429404::1770580087::0::1::::<><><>0<>0<><>::uid://xanrcmq1if56::::res://Viviana/scrips/npc_4.gd<>uid://85c6kg1ubylr::::res://Viviana/Npc/pnc4.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
 npc_5.tscn::PackedScene::5474575088919463118::1770573454::0::1::::<><><>0<>0<><>::uid://bqp0vikcot0f5::::res://Viviana/scrips/npc_5.gd<>uid://ccm12lckystmu::::res://Viviana/Npc/pnc5.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
 npc_6.tscn::PackedScene::1007967295733285504::1770574628::0::1::::<><><>0<>0<><>::uid://btb6fnfy6rnib::::res://npc_6.gd<>uid://b7kuqls8p6x5w::::res://Viviana/Npc/npc6.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
 npc_7.tscn::PackedScene::8658776135584017292::1770576154::0::1::::<><><>0<>0<><>::uid://bre22si8w50x::::res://Viviana/scrips/npc_7.gd<>uid://8mhlg0tehlpq::::res://Viviana/Npc/npc7.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
-npc_8.tscn::PackedScene::3030069015810696100::1770576717::0::1::::<><><>0<>0<><>::uid://ckg8irik244sy::::res://Viviana/scrips/npc_8.gd<>uid://c487dv33vo5ip::::res://Viviana/Npc/npc8.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
+npc_8.tscn::PackedScene::3030069015810696100::1770576797::0::1::::<><><>0<>0<><>::uid://ckg8irik244sy::::res://Viviana/scrips/npc_8.gd<>uid://c487dv33vo5ip::::res://Viviana/Npc/npc8.png<>uid://dhky5pjkfjs4n::::res://Viviana/Npc/dialog_interactable question.png
 ::res://Viviana/Npc/::1770574350
 16x32 idle npct.png::CompressedTexture2D::5683147278141854972::1770568253::1770568259::1::::<><><>0<>0<>b9baf8cee3b76e494f63af50aa39d8d6<>res://.godot/imported/16x32 idle npct.png-5c555295150002dd0d2bd7379ea53be3.ctex::
 16x32 Idle-Sheet.png::CompressedTexture2D::2469674874014202913::1769719608::1770563731::1::::<><><>0<>0<>3807aa1f23ec9a49bd7281130ab3caf9<>res://.godot/imported/16x32 Idle-Sheet.png-645d49647c6e9fa2904766a09af28979.ctex::
@@ -420,11 +417,12 @@ npc7.png::CompressedTexture2D::2341449390415223122::1770574197::1770574350::1:::
 npc8.png::CompressedTexture2D::6878391747469072215::1770574326::1770574350::1::::<><><>0<>0<>f2850604dd754c15d1da681a7e1ec0ec<>res://.godot/imported/npc8.png-d2438e392f3d997cbd261937522fe0e0.ctex::
 pnc4.png::CompressedTexture2D::2378340501983889775::1770354336::1770563731::1::::<><><>0<>0<>270c585f979dedaf351d356aadfebe1f<>res://.godot/imported/pnc4.png-342124cd38e52e5fa92cdf695258bf68.ctex::
 pnc5.png::CompressedTexture2D::4939619027291961032::1770570520::1770570714::1::::<><><>0<>0<>cac512e7e883901b4abed7858b3da068<>res://.godot/imported/pnc5.png-795f590c553038506ebe1d05a6fe18a7.ctex::
-::res://Viviana/scrips/::1770576431
+::res://Viviana/scrips/::1770577140
 npc_1.gd::GDScript::553686595046281786::1770564455::0::1::::<>Area2D<><>0<>0<><>::
 npc_2.gd::GDScript::1246967029315474462::1770568700::0::1::::<>Area2D<><>0<>0<><>::
 npc_3.gd::GDScript::8191102398299905777::1770569294::0::1::::<>Area2D<><>0<>0<><>::
 npc_4.gd::GDScript::1615163207423478159::1770570288::0::1::::<>Area2D<><>0<>0<><>::
 npc_5.gd::GDScript::3541963710448880996::1770573454::0::1::::<>Area2D<><>0<>0<><>::
+npc_6.gd::GDScript::-1::1770576154::0::1::::<>Area2D<><>0<>0<><>::
 npc_7.gd::GDScript::105575796208962721::1770576154::0::1::::<>Area2D<><>0<>0<><>::
-npc_8.gd::GDScript::5489134923150414152::1770576431::0::1::::<>Area2D<><>0<>0<><>::
+npc_8.gd::GDScript::5489134923150414152::1770576797::0::1::::<>Area2D<><>0<>0<><>::

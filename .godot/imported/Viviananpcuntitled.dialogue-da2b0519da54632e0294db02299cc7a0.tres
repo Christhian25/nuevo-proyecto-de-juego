@@ -20,7 +20,7 @@ lines = {
 &"character": "Viviana",
 &"id": "1",
 &"next_id": "2",
-&"text": "Incorrecta! Santiago Mariño fue un destacado militar y político venezolano, conocido por su papel crucial en la independencia de Venezuela y su liderazgo en el ejército patriota.",
+&"text": "¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?",
 &"type": "dialogue"
 },
 "2": {
@@ -79,7 +79,7 @@ lines = {
 }
 }
 raw_text = "~ start
-Viviana: Incorrecta! Santiago Mariño fue un destacado militar y político venezolano, conocido por su papel crucial en la independencia de Venezuela y su liderazgo en el ejército patriota.
+Viviana: ¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?
 - A. Jose Antonio Anzoategui.
 	Viviana: En Hora Buena!
 - B. Juan Antonio Anzoategui.

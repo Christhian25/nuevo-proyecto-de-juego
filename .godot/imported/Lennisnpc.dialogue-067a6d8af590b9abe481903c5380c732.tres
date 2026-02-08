@@ -8,7 +8,7 @@ using_states = PackedStringArray()
 titles = {
 "start": "1"
 }
-character_names = PackedStringArray("Lennis", "Viviana")
+character_names = PackedStringArray("Lennis")
 first_title = "0"
 lines = {
 "0": {
@@ -31,7 +31,7 @@ lines = {
 &"type": "response"
 },
 "3": {
-&"character": "Viviana",
+&"character": "Lennis",
 &"id": "3",
 &"next_id": "8",
 &"text": "Sera para la proxima.",
@@ -44,7 +44,7 @@ lines = {
 &"type": "response"
 },
 "5": {
-&"character": "Viviana",
+&"character": "Lennis",
 &"id": "5",
 &"next_id": "8",
 &"text": "El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.",
@@ -57,7 +57,7 @@ lines = {
 &"type": "response"
 },
 "7": {
-&"character": "Viviana",
+&"character": "Lennis",
 &"id": "7",
 &"next_id": "8",
 &"text": "En Hora Buena!",
@@ -81,10 +81,10 @@ lines = {
 raw_text = "~ start
 Lennis: ¿Qué ocurrió en la Casa Fuerte de Barcelona?
 - A. Sirvió como la primera universidad del oriente venezolano fundada por los franciscanos.
-	Viviana: Sera para la proxima.
+	Lennis: Sera para la proxima.
 - B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.
-	Viviana: El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.
+	Lennis: El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.
 - C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.
-	Viviana: En Hora Buena!
+	Lennis: En Hora Buena!
 => END"
 metadata/dialogue_manager_version = "3.10.0"
