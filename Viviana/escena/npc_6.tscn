@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://omjcrwhvqpau"]
 
-[ext_resource type="Script" uid="uid://btb6fnfy6rnib" path="res://npc_6.gd" id="1_vjb8n"]
+[ext_resource type="Script" uid="uid://btb6fnfy6rnib" path="res://Viviana/scrips/npc_6.gd" id="1_vjb8n"]
 [ext_resource type="Texture2D" uid="uid://b7kuqls8p6x5w" path="res://Viviana/Npc/npc6.png" id="2_mod5h"]
 [ext_resource type="Texture2D" uid="uid://dhky5pjkfjs4n" path="res://Viviana/Npc/dialog_interactable question.png" id="3_aqxcj"]
 
@@ -17,6 +17,7 @@ texture = ExtResource("2_mod5h")
 shape = SubResource("RectangleShape2D_rvfpe")
 
 [node name="questionmark3" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(0, -16)
 texture = ExtResource("3_aqxcj")
 

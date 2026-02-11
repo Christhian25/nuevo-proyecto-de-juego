@@ -1,0 +1,169 @@
+[gd_scene load_steps=9 format=3 uid="uid://b5s3vyepn3xg8"]
+
+[ext_resource type="Script" uid="uid://bukkdcsqwacjm" path="res://Christhian/Scrips/parallax_background_menu2.gd" id="1_3u60c"]
+[ext_resource type="Script" uid="uid://k4gj67ar53m4" path="res://Christhian/Scrips/sonido.gd" id="1_8jk4d"]
+[ext_resource type="Script" uid="uid://dik4r1i15mss1" path="res://Christhian/Scrips/control.gd" id="1_12v8b"]
+[ext_resource type="Texture2D" uid="uid://bktrvgbxvdkae" path="res://Christhian/fondo menu de inicio/cielo-Sheet.png" id="2_8jk4d"]
+[ext_resource type="Texture2D" uid="uid://cdig7lo7i4fis" path="res://Christhian/fondo menu de inicio/near-clouds.png" id="3_12v8b"]
+[ext_resource type="Texture2D" uid="uid://ns6pw235eqw4" path="res://Christhian/fondo menu de inicio/montanas y salto el angel.png" id="4_10p3v"]
+[ext_resource type="Texture2D" uid="uid://cmbgwhd6gv3kk" path="res://Christhian/fondo menu de inicio/playa y llano.png" id="5_gnlyk"]
+[ext_resource type="AudioStream" uid="uid://bxknqaohvtp55" path="res://Christhian/musica/AUD-20260204-WA0043.wav" id="6_7rfmt"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_12v8b")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -23.5
+offset_top = 20.0
+offset_right = 23.5
+offset_bottom = 43.0
+grow_horizontal = 2
+text = "Master"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -27.5
+offset_top = 71.0
+offset_right = 27.5
+offset_bottom = 94.0
+grow_horizontal = 2
+text = "Música"
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -27.5
+offset_top = 125.0
+offset_right = 27.5
+offset_bottom = 148.0
+grow_horizontal = 2
+text = "Efectos"
+
+[node name="HSlider" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 33.0
+offset_top = -70.0
+offset_right = -42.0
+offset_bottom = -54.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8jk4d")
+
+[node name="HSlider2" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 33.0
+offset_top = -22.0
+offset_right = -42.0
+offset_bottom = -6.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8jk4d")
+
+[node name="HSlider3" type="HSlider" parent="."]
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = 33.0
+offset_top = 37.0
+offset_right = -42.0
+offset_bottom = 53.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8jk4d")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -38.5
+offset_top = -46.0
+offset_right = 38.5
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "Regresar"
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+script = ExtResource("1_3u60c")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.5, 0.5)
+motion_mirroring = Vector2(360, 0)
+
+[node name="CieloSheet" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+texture_filter = 1
+texture = ExtResource("2_8jk4d")
+centered = false
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.6, 0.6)
+motion_mirroring = Vector2(288, 0)
+
+[node name="NearClouds" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+texture = ExtResource("3_12v8b")
+centered = false
+
+[node name="NearClouds2" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+texture_filter = 1
+position = Vector2(144, 0)
+texture = ExtResource("3_12v8b")
+centered = false
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.8, 0.8)
+motion_mirroring = Vector2(320, 0)
+
+[node name="MontanasYSaltoElAngel" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+texture_filter = 1
+texture = ExtResource("4_10p3v")
+centered = false
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+texture_filter = 1
+motion_scale = Vector2(0.9, 0.9)
+motion_mirroring = Vector2(320, 0)
+
+[node name="PlayaYLlano" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+texture_filter = 1
+texture = ExtResource("5_gnlyk")
+centered = false
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("6_7rfmt")
+volume_db = 19.0
+autoplay = true
+bus = &"Música"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

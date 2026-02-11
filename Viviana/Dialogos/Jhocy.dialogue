@@ -1,9 +1,17 @@
 ~ start
-Jhoscy: ¿Qué ingredientes lleva un Cuajado de Pescado?
-- A. Pescado desmenuzado, plátano maduro frito, huevo, papas y un guiso con abundante ají dulce.
-	Jhoscy: En Hora Buena!
-- B. Pescado entero frito, arroz blanco, ensalada rallada y rodajas de limón.
-	Jhoscy: Sera para la proxima.
-- C. Mariscos variados, leche de coco, curry y trozos de piña.
-	Jhoscy: Sera para la proxima.
+if not NumeroDePerlas.rsp1
+	Jhoscy:  Si quieres que abra el camino, deberas responder la siguiente pregunta.
+	Jhoscy: ¿Qué ingredientes lleva un Cuajado de Pescado?
+	- A. Pescado desmenuzado, plátano maduro frito, huevo y papas.
+		Jhoscy: En Hora Buena!
+		set NumeroDePerlas.rsp1 = true
+		set NumeroDePerlas.cubo = true
+	- B. Pescado entero frito, arroz blanco, ensalada rallada y rodajas de limón.
+		Jhoscy: Sera para la proxima.
+		set NumeroDeEmpanadas.empanadas -= 1
+	- C. Mariscos variados, leche de coco, curry y trozos de piña.
+		Jhoscy: Sera para la proxima.
+		set NumeroDeEmpanadas.empanadas -= 1
+else
+	Jhoscy: Gracias por participar.
 => END

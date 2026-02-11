@@ -1,9 +1,17 @@
 ~ start
-Javier: ¿Qué son las "Diversiones Orientales" como El Carite?
-- A. Son manifestaciones folclóricas que mezclan teatro callejero, música y baile.
-	Javier: En Hora Buena!
-- B. Son parques de atracciones mecánicas que se instalan en las costas durante la temporada de vacaciones.
-	Javier: Sera para la proxima.
-- C. Son torneos de pesca deportiva que se realizan anualmente en las islas del Parque Nacional Mochima.
-	Javier: Sera para la proxima.
+if not NumeroDePerlas.rsp1
+	Javier: Si quieres que abra el camino, deberas responder la siguiente pregunta.
+	Javier: ¿Qué son las "Diversiones Orientales" como El Carite?
+	- A. Son manifestaciones folclóricas que mezclan teatro callejero, música y baile.
+		Javier: En Hora Buena!
+		set NumeroDePerlas.rsp1 = true
+		set NumeroDePerlas.cubo = true
+	- B. Son parques de atracciones mecánicas que se instalan en las costas durante la temporada de vacaciones.
+		Javier: Sera para la proxima.
+		set NumeroDeEmpanadas.empanadas -= 1
+	- C. Son torneos de pesca deportiva que se realizan anualmente en las islas del Parque Nacional Mochima.
+		Javier: Sera para la proxima.
+		set NumeroDeEmpanadas.empanadas -= 1
+else
+	Javier: Gracias por participar.
 => END

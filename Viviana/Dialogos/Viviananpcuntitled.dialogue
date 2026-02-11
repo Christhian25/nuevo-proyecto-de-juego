@@ -1,9 +1,19 @@
 ~ start
-Viviana: ¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?
-- A. Jose Antonio Anzoategui.
-	Viviana: En Hora Buena!
-- B. Juan Antonio Anzoategui.
-	Viviana: Sera para la proxima.
-- C.  Anzoategui de la Torre.
-	Viviana: Sera para la proxima.
+if not NumeroDePerlas.rsp3
+	???: Oye ¿Hacemos una apuesta?
+	???: Si ganas de entrego una perla y si pierdes me quedo con todas tus vidas. ¿Qué dices?
+	- Si.
+		???: ¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?
+		- A. Jose Antonio Anzoategui.
+			???: En Hora Buena!
+		- B. Juan Antonio Anzoategui.
+			???: Sera para la proxima.
+		- C.  Anzoategui de la Torre.
+			???: Sera para la proxima.
+	- No.
+		Voz: Sabia decisión. Recuerda nunca confiar en desconocidos
+		Voz: Aquí tienes la perla que querias
+		set NumeroDePerlas.perlas += 1
+		set NumeroDePerlas.rsp3 = true
+
 => END

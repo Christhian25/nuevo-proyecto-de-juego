@@ -18,6 +18,7 @@ position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_rt3bl")
 
 [node name="questionmark5" type="Sprite2D" parent="."]
+visible = false
 position = Vector2(0, -20)
 texture = ExtResource("3_e63sb")
 

@@ -6,4 +6,4 @@ func _physics_process(delta: float) -> void:
 	if NumeroDeEmpanadas.empanadas <=0:
 		NumeroDeEmpanadas.empanadas = 3
 		get_tree().change_scene_to_file("res://Christhian/escenas/game_over.tscn")
-		
+	

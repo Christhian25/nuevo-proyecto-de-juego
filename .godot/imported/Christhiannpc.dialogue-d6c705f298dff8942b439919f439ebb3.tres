@@ -17,9 +17,10 @@ lines = {
 &"type": "title"
 },
 "1": {
+&"character": "Christhian",
 &"id": "1",
 &"next_id": "2",
-&"text": "Christhian:......",
+&"text": "Hola. ¿Sabías Que?",
 &"type": "dialogue"
 },
 "2": {
@@ -29,15 +30,15 @@ lines = {
 &"siblings": Array[Dictionary]([{
 &"condition": {},
 &"id": "2",
-&"weight": 1.0
+&"weight": 5.0
 }, {
 &"condition": {},
 &"id": "3",
-&"weight": 1.0
+&"weight": 4.0
 }, {
 &"condition": {},
 &"id": "4",
-&"weight": 1.0
+&"weight": 3.0
 }, {
 &"condition": {},
 &"id": "5",
@@ -53,15 +54,15 @@ lines = {
 &"siblings": Array[Dictionary]([{
 &"condition": {},
 &"id": "2",
-&"weight": 1.0
+&"weight": 5.0
 }, {
 &"condition": {},
 &"id": "3",
-&"weight": 1.0
+&"weight": 4.0
 }, {
 &"condition": {},
 &"id": "4",
-&"weight": 1.0
+&"weight": 3.0
 }, {
 &"condition": {},
 &"id": "5",
@@ -77,15 +78,15 @@ lines = {
 &"siblings": Array[Dictionary]([{
 &"condition": {},
 &"id": "2",
-&"weight": 1.0
+&"weight": 5.0
 }, {
 &"condition": {},
 &"id": "3",
-&"weight": 1.0
+&"weight": 4.0
 }, {
 &"condition": {},
 &"id": "4",
-&"weight": 1.0
+&"weight": 3.0
 }, {
 &"condition": {},
 &"id": "5",
@@ -101,29 +102,29 @@ lines = {
 &"siblings": Array[Dictionary]([{
 &"condition": {},
 &"id": "2",
-&"weight": 1.0
+&"weight": 5.0
 }, {
 &"condition": {},
 &"id": "3",
-&"weight": 1.0
+&"weight": 4.0
 }, {
 &"condition": {},
 &"id": "4",
-&"weight": 1.0
+&"weight": 3.0
 }, {
 &"condition": {},
 &"id": "5",
 &"weight": 1.0
 }]),
-&"text": "En Barcelona se encuentran las ruinas de la Casa Fuerte, un antiguo convento que fue escenario de uno de los episodios más cruentos de la guerra de independencia en 1817.",
+&"text": "En Barcelona se encuentran las ruinas de la Casa Fuerte, un antiguo convento que fue escenario de uno de los episodios más cruentos de la guerra de independencia en 1817",
 &"type": "dialogue"
 },
 "6": {
+&"character": "Christhian",
 &"id": "6",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "7",
+&"text": "Si quieres saber más. Solo hablame.",
+&"type": "dialogue"
 },
 "7": {
 &"id": "7",
@@ -131,13 +132,21 @@ lines = {
 &"next_id": "end",
 &"next_id_after": "",
 &"type": "goto"
+},
+"8": {
+&"id": "8",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
 }
 }
 raw_text = "~ start
-Christhian:......
-% Christhian: Cuajado de Pescado: Pastel tipo tortilla hecho con pescado desmenuzado, huevo, plátano frito y papas. Es el plato rey en Semana Santa.
-% Christhian: Fosforera: Una sopa de mariscos muy concentrada a la que se le atribuyen propiedades \"levanta muertos\" o afrodisíacas.
-% Christhian: Dulcería: Destacan el Majarete (pudin de coco y maíz), el dulce de merey y el arroz con coco.
-% Christhian: En Barcelona se encuentran las ruinas de la Casa Fuerte, un antiguo convento que fue escenario de uno de los episodios más cruentos de la guerra de independencia en 1817.
+Christhian: Hola. ¿Sabías Que?
+%5 Christhian: Cuajado de Pescado: Pastel tipo tortilla hecho con pescado desmenuzado, huevo, plátano frito y papas. Es el plato rey en Semana Santa.
+%4 Christhian: Fosforera: Una sopa de mariscos muy concentrada a la que se le atribuyen propiedades \"levanta muertos\" o afrodisíacas.
+%3 Christhian: Dulcería: Destacan el Majarete (pudin de coco y maíz), el dulce de merey y el arroz con coco.
+% Christhian: En Barcelona se encuentran las ruinas de la Casa Fuerte, un antiguo convento que fue escenario de uno de los episodios más cruentos de la guerra de independencia en 1817
+Christhian: Si quieres saber más. Solo hablame.
 => END"
 metadata/dialogue_manager_version = "3.10.0"

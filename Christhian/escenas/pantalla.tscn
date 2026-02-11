@@ -30,9 +30,11 @@ offset_right = 54.0
 offset_bottom = 77.0
 grow_horizontal = 2
 grow_vertical = 2
+focus_mode = 2
 
 [node name="Play" type="Button" parent="VBoxContainer"]
 layout_mode = 2
+focus_mode = 1
 text = "Jugar"
 
 [node name="Option" type="Button" parent="VBoxContainer"]
@@ -99,6 +101,7 @@ centered = false
 stream = ExtResource("7_f3m0g")
 volume_db = 19.0
 autoplay = true
+bus = &"Música"
 
 [connection signal="pressed" from="VBoxContainer/Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="VBoxContainer/Option" to="." method="_on_opcion_pressed"]

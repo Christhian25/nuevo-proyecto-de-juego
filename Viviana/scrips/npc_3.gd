@@ -1,6 +1,6 @@
 extends Area2D
 
-@onready var exclamation_mark3 = $ExclamtionMark3
+@onready var exclamation_mark3 = $ExclamationMark3
 
 const Christhiannpc = preload("res://Viviana/Dialogos/Christhiannpc.dialogue")
 
@@ -20,7 +20,7 @@ func _on_area_entered(area: Area2D) -> void:
 	exclamation_mark3.visible = true
 	is_player_close = true
 
-
+ 
 func _on_area_exited(area: Area2D) -> void:
 	exclamation_mark3.visible = false
 	is_player_close = false

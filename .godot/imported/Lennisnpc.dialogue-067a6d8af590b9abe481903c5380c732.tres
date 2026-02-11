@@ -17,74 +17,243 @@ lines = {
 &"type": "title"
 },
 "1": {
-&"character": "Lennis",
+&"condition": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"not"
+}, {
+&"i": 7,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 21,
+&"type": &"dot"
+}, {
+&"i": 22,
+&"type": &"variable",
+&"value": "rsp2"
+}])
+},
 &"id": "1",
 &"next_id": "2",
+&"next_id_after": "14",
+&"type": "condition"
+},
+"10": {
+&"character": "Lennis",
+&"id": "10",
+&"next_id": "11",
+&"text": "En Hora Buena!",
+&"type": "dialogue"
+},
+"11": {
+&"id": "11",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 18,
+&"type": &"dot"
+}, {
+&"i": 19,
+&"type": &"variable",
+&"value": "perlas"
+}, {
+&"i": 26,
+&"type": &"assignment",
+&"value": "+="
+}, {
+&"i": 29,
+&"type": &"number",
+&"value": 1
+}]),
+&"is_blocking": true
+},
+&"next_id": "12",
+&"type": "mutation"
+},
+"12": {
+&"id": "12",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 18,
+&"type": &"dot"
+}, {
+&"i": 19,
+&"type": &"variable",
+&"value": "rsp2"
+}, {
+&"i": 24,
+&"type": &"assignment",
+&"value": "="
+}, {
+&"i": 26,
+&"type": &"variable",
+&"value": "true"
+}]),
+&"is_blocking": true
+},
+&"next_id": "13",
+&"type": "mutation"
+},
+"13": {
+&"id": "13",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 18,
+&"type": &"dot"
+}, {
+&"i": 19,
+&"type": &"variable",
+&"value": "cubo2"
+}, {
+&"i": 25,
+&"type": &"assignment",
+&"value": "="
+}, {
+&"i": 27,
+&"type": &"variable",
+&"value": "true"
+}]),
+&"is_blocking": true
+},
+&"next_id": "14",
+&"type": "mutation"
+},
+"14": {
+&"id": "14",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"15": {
+&"id": "15",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"2": {
+&"character": "Lennis",
+&"id": "2",
+&"next_id": "3",
 &"text": "¿Qué ocurrió en la Casa Fuerte de Barcelona?",
 &"type": "dialogue"
 },
-"2": {
-&"id": "2",
-&"next_id": "3",
-&"responses": PackedStringArray("2", "4", "6"),
+"3": {
+&"id": "3",
+&"next_id": "4",
+&"responses": PackedStringArray("3", "6", "9"),
 &"text": "A. Sirvió como la primera universidad del oriente venezolano fundada por los franciscanos.",
 &"type": "response"
 },
-"3": {
+"4": {
 &"character": "Lennis",
-&"id": "3",
-&"next_id": "8",
+&"id": "4",
+&"next_id": "5",
 &"text": "Sera para la proxima.",
 &"type": "dialogue"
 },
-"4": {
-&"id": "4",
-&"next_id": "5",
-&"text": "B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.",
-&"type": "response"
-},
 "5": {
-&"character": "Lennis",
 &"id": "5",
-&"next_id": "8",
-&"text": "El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.",
-&"type": "dialogue"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDeEmpanadas"
+}, {
+&"i": 21,
+&"type": &"dot"
+}, {
+&"i": 22,
+&"type": &"variable",
+&"value": "empanadas"
+}, {
+&"i": 32,
+&"type": &"assignment",
+&"value": "-="
+}, {
+&"i": 35,
+&"type": &"number",
+&"value": 1
+}]),
+&"is_blocking": true
+},
+&"next_id": "14",
+&"type": "mutation"
 },
 "6": {
 &"id": "6",
 &"next_id": "7",
-&"text": "C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.",
+&"text": "B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.",
 &"type": "response"
 },
 "7": {
 &"character": "Lennis",
 &"id": "7",
 &"next_id": "8",
-&"text": "En Hora Buena!",
+&"text": "El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.",
 &"type": "dialogue"
 },
 "8": {
 &"id": "8",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDeEmpanadas"
+}, {
+&"i": 21,
+&"type": &"dot"
+}, {
+&"i": 22,
+&"type": &"variable",
+&"value": "empanadas"
+}, {
+&"i": 32,
+&"type": &"assignment",
+&"value": "-="
+}, {
+&"i": 35,
+&"type": &"number",
+&"value": 1
+}]),
+&"is_blocking": true
+},
+&"next_id": "14",
+&"type": "mutation"
 },
 "9": {
 &"id": "9",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "10",
+&"text": "C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.",
+&"type": "response"
 }
 }
 raw_text = "~ start
-Lennis: ¿Qué ocurrió en la Casa Fuerte de Barcelona?
-- A. Sirvió como la primera universidad del oriente venezolano fundada por los franciscanos.
-	Lennis: Sera para la proxima.
-- B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.
-	Lennis: El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.
-- C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.
-	Lennis: En Hora Buena!
+if not NumeroDePerlas.rsp2
+	Lennis: ¿Qué ocurrió en la Casa Fuerte de Barcelona?
+	- A. Sirvió como la primera universidad del oriente venezolano fundada por los franciscanos.
+		Lennis: Sera para la proxima.
+		set NumeroDeEmpanadas.empanadas -= 1
+	- B. Fue el lugar donde se firmó el Acta de Independencia definitiva de Venezuela.
+		Lennis: El Acta de Independencia se firmó en Caracas el 5 de julio de 1811.
+		set NumeroDeEmpanadas.empanadas -= 1
+	- C. Fue el escenario de una resistencia heroica y posterior masacre por parte de las tropas realistas contra patriotas y civiles.
+		Lennis: En Hora Buena!
+		set NumeroDePerlas.perlas += 1
+		set NumeroDePerlas.rsp2 = true
+		set NumeroDePerlas.cubo2 = true
 => END"
 metadata/dialogue_manager_version = "3.10.0"

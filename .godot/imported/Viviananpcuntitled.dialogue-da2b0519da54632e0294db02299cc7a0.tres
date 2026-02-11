@@ -8,7 +8,7 @@ using_states = PackedStringArray()
 titles = {
 "start": "1"
 }
-character_names = PackedStringArray("Viviana")
+character_names = PackedStringArray("???", "Voz")
 first_title = "0"
 lines = {
 "0": {
@@ -17,74 +17,209 @@ lines = {
 &"type": "title"
 },
 "1": {
-&"character": "Viviana",
+&"condition": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"not"
+}, {
+&"i": 7,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 21,
+&"type": &"dot"
+}, {
+&"i": 22,
+&"type": &"variable",
+&"value": "rsp3"
+}])
+},
 &"id": "1",
 &"next_id": "2",
-&"text": "¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?",
-&"type": "dialogue"
+&"next_id_after": "18",
+&"type": "condition"
 },
-"2": {
-&"id": "2",
-&"next_id": "3",
-&"responses": PackedStringArray("2", "4", "6"),
-&"text": "A. Jose Antonio Anzoategui.",
+"10": {
+&"id": "10",
+&"next_id": "11",
+&"text": "C.  Anzoategui de la Torre.",
 &"type": "response"
 },
+"11": {
+&"character": "???",
+&"id": "11",
+&"next_id": "18",
+&"text": "Sera para la proxima.",
+&"type": "dialogue"
+},
+"12": {
+&"id": "12",
+&"next_id": "13",
+&"text": "No.",
+&"type": "response"
+},
+"13": {
+&"character": "Voz",
+&"id": "13",
+&"next_id": "14",
+&"text": "Sabia decisión. Recuerda nunca confiar en desconocidos",
+&"type": "dialogue"
+},
+"14": {
+&"character": "Voz",
+&"id": "14",
+&"next_id": "15",
+&"text": "Aquí tienes la perla que querias",
+&"type": "dialogue"
+},
+"15": {
+&"id": "15",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 18,
+&"type": &"dot"
+}, {
+&"i": 19,
+&"type": &"variable",
+&"value": "perlas"
+}, {
+&"i": 26,
+&"type": &"assignment",
+&"value": "+="
+}, {
+&"i": 29,
+&"type": &"number",
+&"value": 1
+}]),
+&"is_blocking": true
+},
+&"next_id": "16",
+&"type": "mutation"
+},
+"16": {
+&"id": "16",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 4,
+&"type": &"variable",
+&"value": "NumeroDePerlas"
+}, {
+&"i": 18,
+&"type": &"dot"
+}, {
+&"i": 19,
+&"type": &"variable",
+&"value": "rsp3"
+}, {
+&"i": 24,
+&"type": &"assignment",
+&"value": "="
+}, {
+&"i": 26,
+&"type": &"variable",
+&"value": "true"
+}]),
+&"is_blocking": true
+},
+&"next_id": "18",
+&"type": "mutation"
+},
+"17": {
+&"id": "17",
+&"next_id": "18",
+&"type": ""
+},
+"18": {
+&"id": "18",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"19": {
+&"id": "19",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"2": {
+&"character": "???",
+&"id": "2",
+&"next_id": "3",
+&"text": "Oye ¿Hacemos una apuesta?",
+&"type": "dialogue"
+},
 "3": {
-&"character": "Viviana",
+&"character": "???",
 &"id": "3",
-&"next_id": "8",
-&"text": "En Hora Buena!",
+&"next_id": "4",
+&"text": "Si ganas de entrego una perla y si pierdes me quedo con todas tus vidas. ¿Qué dices?",
 &"type": "dialogue"
 },
 "4": {
 &"id": "4",
 &"next_id": "5",
-&"text": "B. Juan Antonio Anzoategui.",
+&"responses": PackedStringArray("4", "12"),
+&"text": "Si.",
 &"type": "response"
 },
 "5": {
-&"character": "Viviana",
+&"character": "???",
 &"id": "5",
-&"next_id": "8",
-&"text": "Sera para la proxima.",
+&"next_id": "6",
+&"text": "¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?",
 &"type": "dialogue"
 },
 "6": {
 &"id": "6",
 &"next_id": "7",
-&"text": "C.  Anzoategui de la Torre.",
+&"responses": PackedStringArray("6", "8", "10"),
+&"text": "A. Jose Antonio Anzoategui.",
 &"type": "response"
 },
 "7": {
-&"character": "Viviana",
+&"character": "???",
 &"id": "7",
-&"next_id": "8",
-&"text": "Sera para la proxima.",
+&"next_id": "18",
+&"text": "En Hora Buena!",
 &"type": "dialogue"
 },
 "8": {
 &"id": "8",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "9",
+&"text": "B. Juan Antonio Anzoategui.",
+&"type": "response"
 },
 "9": {
+&"character": "???",
 &"id": "9",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
+&"next_id": "18",
+&"text": "Sera para la proxima.",
+&"type": "dialogue"
 }
 }
 raw_text = "~ start
-Viviana: ¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?
-- A. Jose Antonio Anzoategui.
-	Viviana: En Hora Buena!
-- B. Juan Antonio Anzoategui.
-	Viviana: Sera para la proxima.
-- C.  Anzoategui de la Torre.
-	Viviana: Sera para la proxima.
+if not NumeroDePerlas.rsp3
+	???: Oye ¿Hacemos una apuesta?
+	???: Si ganas de entrego una perla y si pierdes me quedo con todas tus vidas. ¿Qué dices?
+	- Si.
+		???: ¿En honor a qué prócer de la independencia venezolana lleva su nombre el estado Anzoátegui?
+		- A. Jose Antonio Anzoategui.
+			???: En Hora Buena!
+		- B. Juan Antonio Anzoategui.
+			???: Sera para la proxima.
+		- C.  Anzoategui de la Torre.
+			???: Sera para la proxima.
+	- No.
+		Voz: Sabia decisión. Recuerda nunca confiar en desconocidos
+		Voz: Aquí tienes la perla que querias
+		set NumeroDePerlas.perlas += 1
+		set NumeroDePerlas.rsp3 = true
+
 => END"
 metadata/dialogue_manager_version = "3.10.0"
